@@ -1,0 +1,112 @@
+[
+  {
+    "id": "walleye",
+    "name": "Walleye",
+    "months": [4, 5, 6, 9, 10, 11, 12, 1, 2, 3],
+    "peakMonths": [5, 10],
+    "iceFishing": true,
+    "description": "The most prized Great Lakes table fish. Named for their large, glassy, light-gathering eyes adapted for hunting in low light. Mild, sweet, boneless fillets — the standard for a classic midwest fish fry.",
+    "flavor": "Mild, sweet, flaky white flesh — considered the best-eating freshwater fish",
+    "cookingMethods": ["Pan-fried in cornmeal crust", "Baked with herbs and lemon", "Grilled", "Fish tacos"],
+    "habitat": "Lake Erie (world-class fishery), Lake Huron, Lake Michigan — also river systems"
+  },
+  {
+    "id": "yellow-perch",
+    "name": "Yellow Perch",
+    "months": [5, 6, 7, 8, 9, 10, 11],
+    "peakMonths": [9, 10],
+    "iceFishing": false,
+    "description": "Small but intensely flavorful — the fish fry staple across Great Lakes communities. Lake Erie yields exceptional perch. Restaurants throughout the region feature Friday perch dinners year-round.",
+    "flavor": "Sweet, delicate white flesh with pronounced fresh lake flavor",
+    "cookingMethods": ["Beer-battered fish fry", "Pan-sautéed with butter", "Broiled with lemon butter"],
+    "habitat": "Lake Erie (finest quality), Lake Michigan, Lake Huron — inshore and nearshore"
+  },
+  {
+    "id": "chinook-salmon",
+    "name": "Chinook Salmon",
+    "months": [5, 6, 7, 8, 9, 10],
+    "peakMonths": [8, 9],
+    "iceFishing": false,
+    "description": "The largest Pacific salmon, transplanted to the Great Lakes in the 1960s to control alewife populations. Now a massive sport fishery. Fall run fish enter tributary rivers — Lake Michigan tributaries are legendary for this.",
+    "flavor": "Rich, fatty, deeply flavorful with vivid orange-red flesh",
+    "cookingMethods": ["Cedar plank grilled", "Cold-smoked", "Sashimi (when extremely fresh)", "Poached in court bouillon"],
+    "habitat": "Lake Michigan, Lake Ontario (offshore spring through summer, rivers in fall)"
+  },
+  {
+    "id": "coho-salmon",
+    "name": "Coho Salmon",
+    "months": [4, 5, 6, 9, 10],
+    "peakMonths": [5, 9],
+    "iceFishing": false,
+    "description": "Silver-bright and acrobatic, coho salmon run close to shore in spring and push into tributary rivers in early fall. Smaller than Chinook but highly regarded for table quality.",
+    "flavor": "Moderately fatty, bright orange-pink flesh, milder and more delicate than Chinook",
+    "cookingMethods": ["Pan-seared skin-on", "Grilled whole", "Hot-smoked", "En papillote with herbs"],
+    "habitat": "Lake Michigan, Lake Superior — nearshore in spring, tributaries in fall"
+  },
+  {
+    "id": "lake-trout",
+    "name": "Lake Trout",
+    "months": [4, 5, 12, 1, 2, 3],
+    "peakMonths": [4, 5],
+    "iceFishing": true,
+    "description": "A native cold-water species nearly extirpated by the invasive sea lamprey. Conservation efforts have restored populations in Lake Superior and Lake Huron. Preferred deep, cold water year-round.",
+    "flavor": "Rich, fatty, full-bodied — classic Great Lakes character; excellent smoked",
+    "cookingMethods": ["Cold-smoked whole (iconic preparation)", "Grilled with wild herbs", "Baked in salt crust"],
+    "habitat": "Lake Superior (strongest native population), Lake Huron — deepwater"
+  },
+  {
+    "id": "brown-trout",
+    "name": "Brown Trout",
+    "months": [4, 5, 6, 10, 11, 12, 1, 2],
+    "peakMonths": [5, 10],
+    "iceFishing": true,
+    "description": "Originally from Europe, brown trout now thrive in cold, clear Great Lakes tributaries and nearshore areas. Fall spawning runs bring large fish into rivers — a dramatic sight in midwest streams.",
+    "flavor": "Mild to moderately rich, fine-flaked, clean tasting",
+    "cookingMethods": ["Pan-fried with brown butter and almonds", "Grilled whole over hardwood", "Poached in white wine with herbs"],
+    "habitat": "Great Lakes tributaries, Lake Michigan nearshore, Lake Superior"
+  },
+  {
+    "id": "steelhead",
+    "name": "Steelhead Trout",
+    "months": [3, 4, 5, 10, 11],
+    "peakMonths": [4, 5],
+    "iceFishing": false,
+    "description": "The Great Lakes strain of rainbow trout that migrates into rivers to spawn. A powerful, acrobatic fish beloved by fly anglers. Spring runs up midwest rivers — the St. Joseph, Platte, and Muskegon — are renowned.",
+    "flavor": "Mild to moderately rich, pink-orange flesh, clean and delicate",
+    "cookingMethods": ["Grilled skin-on", "Pan-seared", "Hot-smoked", "Poached in white wine"],
+    "habitat": "Lake Michigan and Lake Superior tributaries — rivers in spring and fall"
+  },
+  {
+    "id": "whitefish",
+    "name": "Lake Whitefish",
+    "months": [11, 12, 1, 2, 3],
+    "peakMonths": [12, 1],
+    "iceFishing": true,
+    "description": "A beloved native Great Lakes species with buttery, rich white flesh. Famous throughout the upper midwest in smoked form. Fat content peaks in late fall and winter, making this the ideal harvest season.",
+    "flavor": "Rich, buttery, mild — exceptional smoked; the best freshwater fish for smoking",
+    "cookingMethods": ["Cold-smoked whole (the definitive preparation)", "Pan-fried with brown butter", "Baked with lemon and dill"],
+    "habitat": "Lake Superior, Lake Michigan, Lake Huron — deepwater, 60-200 feet"
+  },
+  {
+    "id": "northern-pike",
+    "name": "Northern Pike",
+    "months": [4, 5, 9, 10, 1, 2, 3],
+    "peakMonths": [4, 5],
+    "iceFishing": true,
+    "description": "A formidable ambush predator found throughout Great Lakes tributary marshes and bays. Notorious for Y-shaped bones, but larger fish over 5 lbs have proportionally fewer bones and are more practical table fish.",
+    "flavor": "Mild, white, very clean — excellent when prepared fresh",
+    "cookingMethods": ["Pickled pike (traditional Scandinavian-midwest preparation)", "Deep-fried", "Fish cakes (addresses bones)"],
+    "habitat": "All Great Lakes and connected bays, rivers, and wetlands throughout the midwest"
+  },
+  {
+    "id": "smallmouth-bass",
+    "name": "Smallmouth Bass",
+    "months": [6, 7, 8, 9],
+    "peakMonths": [7, 8],
+    "iceFishing": false,
+    "description": "One of North America's most prized sport fish — powerful, fast, and acrobatic. Found in clear rocky Great Lakes shallows. Mostly catch-and-release, but legal to keep in season. Size limit regulations protect the fishery.",
+    "flavor": "Mild, clean, white flesh",
+    "cookingMethods": ["Pan-fried", "Grilled over hardwood", "Baked with lemon and herbs"],
+    "habitat": "Lake Erie, Lake Ontario, Lake Huron rocky shorelines; rivers with gravel bottoms"
+  }
+]
