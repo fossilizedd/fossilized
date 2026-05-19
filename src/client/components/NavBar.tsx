@@ -13,7 +13,7 @@ export function NavBar() {
     >
       <div className="mx-auto max-w-6xl px-4 h-11 flex items-center justify-between">
         <span className="text-[11px] font-semibold tracking-[0.3em] uppercase text-mist/40">
-          Fossilized
+          Midwest Almanac
         </span>
         <div className="flex gap-6">
           {[

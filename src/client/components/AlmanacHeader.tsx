@@ -1,7 +1,5 @@
 "use client";
 
-const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-
 const PARTICLES = [
   { x: 7,  y: 68, size: 3, duration: 12, delay: 0   },
   { x: 14, y: 42, size: 2, duration: 9,  delay: 2.5 },
@@ -24,7 +22,52 @@ const PARTICLES = [
 export function AlmanacHeader() {
   return (
     <header className="almanac-header">
-      <div className="almanac-bg" style={{ backgroundImage: `url("${BASE}/images/cooking-header.jpg")` }} />
+      {/* Sky gradient base */}
+      <div className="almanac-bg" />
+
+      {/* Illustrated landscape scene */}
+      <svg
+        className="almanac-scene"
+        viewBox="0 0 1440 280"
+        preserveAspectRatio="xMidYMid slice"
+        aria-hidden="true"
+      >
+        {/* Sun disk */}
+        <circle cx="680" cy="52" r="34" fill="rgba(240,190,80,0.72)" />
+        <circle cx="680" cy="52" r="58" fill="rgba(232,160,60,0.15)" />
+
+        {/* Distant hills */}
+        <path
+          d="M0,232 Q200,185 480,198 Q720,212 960,188 Q1200,168 1440,182 L1440,280 L0,280 Z"
+          fill="rgba(55,105,82,0.22)"
+        />
+
+        {/* Mid hills */}
+        <path
+          d="M0,250 Q180,210 380,224 Q580,238 720,218 Q880,198 1080,228 Q1280,252 1440,236 L1440,280 L0,280 Z"
+          fill="rgba(38,85,56,0.30)"
+        />
+
+        {/* Left tree cluster */}
+        <rect x="136" y="156" width="7" height="124" rx="3" fill="rgba(20,50,30,0.65)" />
+        <circle cx="140" cy="146" r="54" fill="rgba(30,75,46,0.56)" />
+        <circle cx="112" cy="168" r="32" fill="rgba(30,75,46,0.46)" />
+        <circle cx="172" cy="162" r="38" fill="rgba(36,86,52,0.46)" />
+
+        {/* Right tall tree */}
+        <rect x="1291" y="130" width="9" height="150" rx="4" fill="rgba(20,50,30,0.65)" />
+        <circle cx="1295" cy="116" r="66" fill="rgba(30,75,46,0.50)" />
+        <circle cx="1258" cy="148" r="42" fill="rgba(30,75,46,0.42)" />
+
+        {/* Centre distant tree */}
+        <rect x="876" y="190" width="5" height="90" rx="2" fill="rgba(20,50,30,0.40)" />
+        <circle cx="878" cy="182" r="28" fill="rgba(36,80,50,0.34)" />
+
+        {/* Left small tree */}
+        <rect x="306" y="205" width="4" height="75" rx="2" fill="rgba(20,50,30,0.42)" />
+        <circle cx="308" cy="198" r="20" fill="rgba(34,78,48,0.38)" />
+      </svg>
+
       <div className="almanac-sky" />
       <div className="almanac-atmosphere" />
       <div className="almanac-shaft-left" />
@@ -46,8 +89,7 @@ export function AlmanacHeader() {
       ))}
 
       <div className="almanac-content">
-        <h1 className="almanac-title">Fossilized</h1>
-        <p className="almanac-subtitle">Midwest Seasonal Almanac</p>
+        <h1 className="almanac-title">Midwest Seasonal Almanac</h1>
       </div>
 
       <svg

@@ -3,8 +3,8 @@ import "./globals.css";
 import { NavBar } from "@/client/components/NavBar";
 
 export const metadata: Metadata = {
-  title: "Fossilized",
-  description: "Track festivals, seasonal produce, and picking seasons",
+  title: "Midwest Seasonal Almanac",
+  description: "Track seasonal produce and picking seasons in the Midwest",
 };
 
 export default function RootLayout({
