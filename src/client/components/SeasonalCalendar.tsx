@@ -4,27 +4,23 @@ import { useAtom } from "jotai";
 import { selectedMonthAtom, hiddenIdsAtom } from "@/client/atoms/appAtoms";
 import { sortItems } from "@/client/utils/season";
 import { MonthPicker } from "./calendar/MonthPicker";
-import { ProduceCard } from "./calendar/ProduceCard";
-import { FishCard } from "./calendar/FishCard";
+import { AlmanacCard } from "./calendar/AlmanacCard";
 import { ItemModal } from "./calendar/ItemModal";
-import type { ProduceItem } from "@/server/lib/produce";
-import type { FishItem } from "@/server/lib/fish";
+import { AlmanacCategory, type AlmanacItem } from "@/server/lib/almanac";
 
-interface Props {
-  produce: ProduceItem[];
-  fish: FishItem[];
-}
-
-export function SeasonalCalendar({ produce, fish }: Props) {
+export function SeasonalCalendar({ items }: { items: AlmanacItem[] }) {
   const [selectedMonth] = useAtom(selectedMonthAtom);
   const [hiddenIds, setHiddenIds] = useAtom(hiddenIdsAtom);
 
+  const visible = items.filter(
+    (item) => item.months.includes(selectedMonth) && !hiddenIds.includes(item.id)
+  );
   const visibleProduce = sortItems(
-    produce.filter((p) => p.months.includes(selectedMonth) && !hiddenIds.includes(p.id)),
+    visible.filter((i) => i.category !== AlmanacCategory.Fish),
     selectedMonth
   );
   const visibleFish = sortItems(
-    fish.filter((f) => f.months.includes(selectedMonth) && !hiddenIds.includes(f.id)),
+    visible.filter((i) => i.category === AlmanacCategory.Fish),
     selectedMonth
   );
 
@@ -44,10 +40,10 @@ export function SeasonalCalendar({ produce, fish }: Props) {
 
         {visibleProduce.length > 0 && (
           <>
-            <p className="mb-3 text-xs uppercase tracking-widest opacity-30">Produce</p>
+            <p className="mb-3 text-xs uppercase tracking-widest text-mist/45 border-t border-[rgba(42,80,130,0.1)] pt-4">Produce</p>
             <div className="grid gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mb-8">
               {visibleProduce.map((item, idx) => (
-                <ProduceCard key={item.id} item={item} month={selectedMonth} delay={idx * 35} />
+                <AlmanacCard key={item.id} item={item} month={selectedMonth} delay={idx * 35} />
               ))}
             </div>
           </>
@@ -55,15 +51,10 @@ export function SeasonalCalendar({ produce, fish }: Props) {
 
         {visibleFish.length > 0 && (
           <>
-            <p className="mb-3 text-xs uppercase tracking-widest opacity-30">Fish</p>
+            <p className="mb-3 text-xs uppercase tracking-widest text-mist/45 border-t border-[rgba(42,80,130,0.1)] pt-4">Fish</p>
             <div className="grid gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
               {visibleFish.map((item, idx) => (
-                <FishCard
-                  key={item.id}
-                  item={item}
-                  month={selectedMonth}
-                  delay={(visibleProduce.length + idx) * 35}
-                />
+                <AlmanacCard key={item.id} item={item} month={selectedMonth} delay={(visibleProduce.length + idx) * 35} />
               ))}
             </div>
           </>

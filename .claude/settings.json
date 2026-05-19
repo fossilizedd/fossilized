@@ -7,7 +7,7 @@
       "Bash(ls *)",
       "Bash(ls)",
       "Bash(cat *)",
-      "Bash(rm /home/eyee/fossilized/src/*)",
+      "Bash(rm src/*)",
       "WebSearch"
     ]
   }

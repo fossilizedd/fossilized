@@ -4,17 +4,18 @@
   --color-sky-deep: #0a1628;
   --color-sky-mid: #1a3a5c;
   --color-sky-upper: #0d1b4e;
-  --color-amber: #e8a44a;
-  --color-blossom: #c084a0;
-  --color-mist: #e8eef4;
-  --color-horizon: #c8882a;
-  --color-particle: #f5e4a0;
-  --color-jade: #3a8a6e;
-  --color-ocean: #2a6b99;
+  --color-amber: #c87818;
+  --color-blossom: #a84e70;
+  --color-mist: #162236;
+  --color-horizon: #b06018;
+  --color-particle: #c08c10;
+  --color-jade: #286848;
+  --color-ocean: #185898;
 }
 
 body {
-  background-color: var(--color-sky-deep);
+  background: linear-gradient(170deg, #d6e8f8 0%, #dce4f2 60%, #e2e4f0 100%);
+  min-height: 100dvh;
   color: var(--color-mist);
   font-family: system-ui, -apple-system, sans-serif;
 }
@@ -31,7 +32,6 @@ body {
 .almanac-bg {
   position: absolute;
   inset: 0;
-  background-image: url("/images/cooking-header.jpg");
   background-size: cover;
   background-position: center 40%;
 }
@@ -41,12 +41,11 @@ body {
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(13, 27, 78, 0.72) 0%,
-    rgba(21, 42, 110, 0.55) 20%,
-    rgba(26, 61, 138, 0.35) 45%,
-    rgba(30, 90, 158, 0.25) 65%,
-    rgba(42, 122, 170, 0.4) 82%,
-    rgba(13, 27, 78, 0.65) 100%
+    rgba(20, 50, 110, 0.38) 0%,
+    rgba(30, 70, 140, 0.22) 30%,
+    rgba(60, 120, 180, 0.10) 55%,
+    rgba(200, 140, 60, 0.22) 80%,
+    rgba(220, 170, 80, 0.35) 100%
   );
 }
 
@@ -54,10 +53,10 @@ body {
   position: absolute;
   inset: 0;
   background: radial-gradient(
-    ellipse 120% 40% at 60% 100%,
-    rgba(200, 136, 42, 0.35) 0%,
-    rgba(200, 120, 40, 0.1) 40%,
-    transparent 65%
+    ellipse 130% 45% at 55% 100%,
+    rgba(200, 136, 42, 0.45) 0%,
+    rgba(200, 120, 40, 0.18) 40%,
+    transparent 68%
   );
   animation: light-pulse 7s ease-in-out infinite;
 }
@@ -96,8 +95,8 @@ body {
 .almanac-particle {
   position: absolute;
   border-radius: 50%;
-  background: rgba(245, 228, 160, 0.9);
-  box-shadow: 0 0 8px 3px rgba(245, 228, 160, 0.4);
+  background: color-mix(in srgb, var(--color-particle) 90%, transparent);
+  box-shadow: 0 0 8px 3px color-mix(in srgb, var(--color-particle) 40%, transparent);
   animation: particle-float linear infinite;
 }
 
@@ -117,7 +116,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #edf2f7;
+  color: white;
   text-shadow:
     0 0 60px rgba(232, 164, 74, 0.7),
     0 0 120px rgba(232, 164, 74, 0.3),

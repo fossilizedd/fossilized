@@ -7,7 +7,7 @@ import { MONTHS } from "@/client/utils/season";
 const BTN_BASE =
   "py-[0.35rem] px-[0.7rem] rounded-full text-[0.78rem] font-medium tracking-[0.04em] transition-all border whitespace-nowrap cursor-pointer";
 const BTN_DEFAULT =
-  "text-mist/60 bg-transparent border-[rgba(26,58,92,0.6)] hover:text-mist hover:border-[rgba(42,106,153,0.8)] hover:bg-[rgba(26,58,92,0.3)]";
+  "text-mist/60 bg-transparent border-[rgba(42,80,130,0.3)] hover:text-mist hover:border-[rgba(42,80,130,0.6)] hover:bg-[rgba(42,80,130,0.08)]";
 const BTN_CURRENT = "text-amber/90 border-amber/40 bg-transparent";
 const BTN_SELECTED =
   "bg-amber text-sky-deep border-amber font-semibold shadow-[0_0_16px_rgba(232,164,74,0.4)]";

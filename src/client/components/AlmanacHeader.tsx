@@ -1,5 +1,7 @@
 "use client";
 
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 const PARTICLES = [
   { x: 7,  y: 68, size: 3, duration: 12, delay: 0   },
   { x: 14, y: 42, size: 2, duration: 9,  delay: 2.5 },
@@ -22,7 +24,7 @@ const PARTICLES = [
 export function AlmanacHeader() {
   return (
     <header className="almanac-header">
-      <div className="almanac-bg" />
+      <div className="almanac-bg" style={{ backgroundImage: `url("${BASE}/images/cooking-header.jpg")` }} />
       <div className="almanac-sky" />
       <div className="almanac-atmosphere" />
       <div className="almanac-shaft-left" />
@@ -56,17 +58,17 @@ export function AlmanacHeader() {
       >
         <path
           d="M0,90 L0,62 C80,48 160,58 240,52 C320,46 400,56 480,50 C560,44 640,54 720,48 C800,42 880,52 960,46 C1040,40 1120,52 1200,46 C1280,40 1360,50 1440,44 L1440,90 Z"
-          fill="#142040"
+          fill="#b8cce0"
           opacity="0.65"
         />
         <path
           d="M0,90 L0,74 C100,64 200,76 320,70 C440,64 520,74 640,70 C760,66 860,76 980,72 C1100,68 1200,78 1310,74 C1360,72 1400,76 1440,74 L1440,90 Z"
-          fill="#0e1e38"
+          fill="#c8d8ec"
           opacity="0.8"
         />
         <path
           d="M0,90 L0,82 C180,76 360,84 540,80 C720,76 900,84 1080,80 C1260,76 1380,82 1440,80 L1440,90 Z"
-          fill="#0a1628"
+          fill="#dce8f4"
         />
       </svg>
     </header>

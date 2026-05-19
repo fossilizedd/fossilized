@@ -1,16 +1,13 @@
 import { AlmanacHeader } from "@/client/components/AlmanacHeader";
-import { SeasonalCalendar } from "@/client/components/SeasonalCalendar";
-import { getAllProduce } from "@/server/lib/produce";
-import { getAllFish } from "@/server/lib/fish";
+import { FeedView } from "@/client/components/FeedView";
+import { getAllItems } from "@/server/lib/almanac";
 
 export default function Home() {
-  const produce = getAllProduce();
-  const fish = getAllFish();
-
+  const currentMonth = new Date().getMonth() + 1;
   return (
     <>
       <AlmanacHeader />
-      <SeasonalCalendar produce={produce} fish={fish} />
+      <FeedView items={getAllItems()} currentMonth={currentMonth} />
     </>
   );
 }

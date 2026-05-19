@@ -12,7 +12,7 @@ export const PRODUCE_EMOJI: Record<string, string> = {
   "radishes": "🥕",
   "garlic-scapes": "🧄",
   "shiso": "🌿",
-  "peas": "🫛",
+  "peas": "🌱",
   "bok-choy": "🥬",
   "kohlrabi": "🥦",
   "strawberries": "🍓",
@@ -32,10 +32,10 @@ export const PRODUCE_EMOJI: Record<string, string> = {
   "roma-tomatoes": "🍅",
   "eggplant": "🍆",
   "sweet-corn": "🌽",
-  "green-beans": "🫘",
+  "green-beans": "🌿",
   "garlic": "🧄",
   "peppers": "🫑",
-  "edamame": "🫘",
+  "edamame": "🍃",
   "shishito": "🌶️",
   "beets": "🌿",
   "tomatillos": "🫑",
@@ -85,18 +85,18 @@ export function getSeasonRange(months: number[]): string {
 
 export function getCardClasses(category: string, isNew: boolean): string {
   const base =
-    "rounded-[10px] p-[1.1rem] bg-[rgba(26,58,92,0.18)] border backdrop-blur transition animate-[card-appear_0.25s_ease_both] cursor-pointer select-none";
+    "rounded-[10px] p-[1.1rem] bg-[rgba(255,255,255,0.52)] border backdrop-blur transition animate-[card-appear_0.25s_ease_both] cursor-pointer select-none";
 
   if (isNew) {
-    return `${base} border-[rgba(245,228,160,0.5)] shadow-[0_0_0_1px_rgba(245,228,160,0.12),inset_0_0_20px_rgba(245,228,160,0.04)] hover:shadow-[0_4px_24px_rgba(0,0,0,0.3),inset_0_0_20px_rgba(245,228,160,0.04)]`;
+    return `${base} border-[rgba(190,140,20,0.45)] shadow-[0_0_0_1px_rgba(190,140,20,0.10),inset_0_0_20px_rgba(190,140,20,0.04)] hover:shadow-[0_4px_20px_rgba(0,0,0,0.14),inset_0_0_20px_rgba(190,140,20,0.04)]`;
   }
 
   const borders: Record<string, string> = {
-    fruit:     "border-[rgba(232,164,74,0.35)]  hover:border-[rgba(232,164,74,0.6)]  hover:shadow-[0_4px_24px_rgba(0,0,0,0.3)]",
-    vegetable: "border-[rgba(58,138,110,0.35)]  hover:border-[rgba(58,138,110,0.6)]  hover:shadow-[0_4px_24px_rgba(0,0,0,0.3)]",
-    mushroom:  "border-[rgba(180,120,60,0.35)]  hover:border-[rgba(180,120,60,0.6)]  hover:shadow-[0_4px_24px_rgba(0,0,0,0.3)]",
-    fish:      "border-[rgba(42,107,153,0.35)]  hover:border-[rgba(42,107,153,0.6)]  hover:shadow-[0_4px_24px_rgba(0,0,0,0.3)]",
+    fruit:     "border-[rgba(180,100,20,0.38)]  hover:border-[rgba(180,100,20,0.65)]",
+    vegetable: "border-[rgba(38,100,60,0.38)]   hover:border-[rgba(38,100,60,0.65)]",
+    mushroom:  "border-[rgba(140,80,30,0.38)]   hover:border-[rgba(140,80,30,0.65)]",
+    fish:      "border-[rgba(24,88,152,0.38)]   hover:border-[rgba(24,88,152,0.65)]",
   };
 
-  return `${base} ${borders[category] ?? "border-[rgba(26,58,92,0.5)] hover:shadow-[0_4px_24px_rgba(0,0,0,0.3)]"}`;
+  return `${base} hover:shadow-[0_4px_20px_rgba(0,0,0,0.14)] ${borders[category] ?? "border-[rgba(42,80,130,0.3)]"}`;
 }
