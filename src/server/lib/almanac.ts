@@ -4,7 +4,34 @@ import { type AlmanacItem, AlmanacCategory, Month } from "../types/almanac";
 export type { AlmanacItem, PickingSeason } from "../types/almanac";
 export { AlmanacCategory, Month } from "../types/almanac";
 
-const items = almanacData as AlmanacItem[];
+type MonthName = keyof typeof Month;
+
+interface RawPickingSeason {
+  start: MonthName;
+  end: MonthName;
+}
+
+interface RawAlmanacItem extends Omit<AlmanacItem, "months" | "peakMonths" | "pickingSeason"> {
+  months: MonthName[];
+  peakMonths: MonthName[];
+  pickingSeason?: RawPickingSeason;
+}
+
+function toMonth(name: MonthName): Month {
+  return Month[name];
+}
+
+const items: AlmanacItem[] = (almanacData as unknown as RawAlmanacItem[]).map((raw) => ({
+  ...raw,
+  months: raw.months.map(toMonth),
+  peakMonths: raw.peakMonths.map(toMonth),
+  ...(raw.pickingSeason && {
+    pickingSeason: {
+      start: toMonth(raw.pickingSeason.start),
+      end: toMonth(raw.pickingSeason.end),
+    },
+  }),
+}));
 
 export function getAllItems(): AlmanacItem[] {
   return items;

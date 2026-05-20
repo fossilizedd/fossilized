@@ -3,770 +3,1491 @@
     "id": "walleye",
     "name": "Walleye",
     "category": "fish",
-    "months": [4, 5, 6, 9, 10, 11, 12, 1, 2, 3],
-    "peakMonths": [5, 10],
-    "description": "The most prized Great Lakes table fish. Named for their large, glassy, light-gathering eyes adapted for hunting in low light. Mild, sweet, boneless fillets — the standard for a classic midwest fish fry.",
-    "cookingMethods": ["Pan-fried in cornmeal crust", "Baked with herbs and lemon", "Grilled", "Fish tacos"],
-    "notes": ["Mild, sweet, flaky white flesh — considered the best-eating freshwater fish"],
-    "origin": "Lake Erie (world-class fishery), Lake Huron, Lake Michigan — also river systems",
-    "iceFishing": true
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "peakMonths": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "description": "The most prized Great Lakes table fish, with delicate mild-sweet white flesh, a fine moist flake, and a buttery texture best showcased by pan-frying. Fillets contain a central row of pin bones removed by the 'zippering' technique, yielding four boneless portions. Lake Erie wild populations — protected since 1983 gill-net restrictions and Clean Water Act recovery — produce fish of exceptional flavor.",
+    "notes": [
+      "Lean, subtly sweet, low in fishiness — one of the mildest-tasting freshwater fish",
+      "Firm yet delicate large flakes hold together well in the pan",
+      "Lake Erie is the premier wild fishery; Ohio charter season peaks April–May and September–October"
+    ],
+    "origin": "Lake Erie, centered in Ohio waters — the lake produces more walleye than all other Great Lakes combined, its cold, turbid shallows and hard gravel bottoms sustaining wild populations without stocking."
   },
   {
     "id": "yellow-perch",
     "name": "Yellow Perch",
     "category": "fish",
-    "months": [5, 6, 7, 8, 9, 10, 11],
-    "peakMonths": [9, 10],
+    "months": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "September",
+      "October"
+    ],
     "description": "Small but intensely flavorful — the fish fry staple across Great Lakes communities. Lake Erie yields exceptional perch. Restaurants throughout the region feature Friday perch dinners year-round.",
-    "cookingMethods": ["Beer-battered fish fry", "Pan-sautéed with butter", "Broiled with lemon butter"],
-    "notes": ["Sweet, delicate white flesh with pronounced fresh lake flavor"],
-    "origin": "Lake Erie (finest quality), Lake Michigan, Lake Huron — inshore and nearshore",
-    "iceFishing": false
+    "notes": [
+      "Sweet, delicate white flesh with pronounced fresh lake flavor"
+    ],
+    "origin": "Lake Erie (finest quality, especially Ohio nearshore), Lake Michigan (Green Bay), Lake Huron — inshore and nearshore structure"
   },
   {
     "id": "chinook-salmon",
     "name": "Chinook Salmon",
     "category": "fish",
-    "months": [5, 6, 7, 8, 9, 10],
-    "peakMonths": [8, 9],
+    "months": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "August",
+      "September"
+    ],
     "description": "The largest Pacific salmon, transplanted to the Great Lakes in the 1960s to control alewife populations. Now a massive sport fishery. Fall run fish enter tributary rivers — Lake Michigan tributaries are legendary for this.",
-    "cookingMethods": ["Cedar plank grilled", "Cold-smoked", "Sashimi (when extremely fresh)", "Poached in court bouillon"],
-    "notes": ["Rich, fatty, deeply flavorful with vivid orange-red flesh"],
-    "origin": "Lake Michigan, Lake Ontario (offshore spring through summer, rivers in fall)",
-    "iceFishing": false
+    "notes": [
+      "Rich, fatty, deeply flavorful with vivid orange-red flesh"
+    ],
+    "origin": "Lake Michigan (offshore May–August; Pere Marquette, Platte, Manistee, and St. Joseph rivers in fall), Lake Ontario"
   },
   {
     "id": "coho-salmon",
     "name": "Coho Salmon",
     "category": "fish",
-    "months": [4, 5, 6, 9, 10],
-    "peakMonths": [5, 9],
+    "months": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "May",
+      "September"
+    ],
     "description": "Silver-bright and acrobatic, coho salmon run close to shore in spring and push into tributary rivers in early fall. Smaller than Chinook but highly regarded for table quality.",
-    "cookingMethods": ["Pan-seared skin-on", "Grilled whole", "Hot-smoked", "En papillote with herbs"],
-    "notes": ["Moderately fatty, bright orange-pink flesh, milder and more delicate than Chinook"],
-    "origin": "Lake Michigan, Lake Superior — nearshore in spring, tributaries in fall",
-    "iceFishing": false
+    "notes": [
+      "Moderately fatty, bright orange-pink flesh, milder and more delicate than Chinook"
+    ],
+    "origin": "Lake Michigan nearshore (spring run), Lake Superior — Bois Brule, Two Harbors tributaries in fall"
   },
   {
     "id": "lake-trout",
     "name": "Lake Trout",
     "category": "fish",
-    "months": [4, 5, 12, 1, 2, 3],
-    "peakMonths": [4, 5],
+    "months": [
+      "April",
+      "May",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "peakMonths": [
+      "April",
+      "May"
+    ],
     "description": "A native cold-water species nearly extirpated by the invasive sea lamprey. Conservation efforts have restored populations in Lake Superior and Lake Huron. Preferred deep, cold water year-round.",
-    "cookingMethods": ["Cold-smoked whole (iconic preparation)", "Grilled with wild herbs", "Baked in salt crust"],
-    "notes": ["Rich, fatty, full-bodied — classic Great Lakes character; excellent smoked"],
-    "origin": "Lake Superior (strongest native population), Lake Huron — deepwater",
-    "iceFishing": true
+    "notes": [
+      "Rich, fatty, full-bodied — classic Great Lakes character; excellent smoked"
+    ],
+    "origin": "Lake Superior (strongest restored native population — Apostle Islands, Pictured Rocks), Lake Huron (Drummond Island area) — deepwater 100–300 ft"
   },
   {
     "id": "brown-trout",
     "name": "Brown Trout",
     "category": "fish",
-    "months": [4, 5, 6, 10, 11, 12, 1, 2],
-    "peakMonths": [5, 10],
+    "months": [
+      "April",
+      "May",
+      "June",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "peakMonths": [
+      "May",
+      "October"
+    ],
     "description": "Originally from Europe, brown trout now thrive in cold, clear Great Lakes tributaries and nearshore areas. Fall spawning runs bring large fish into rivers — a dramatic sight in midwest streams.",
-    "cookingMethods": ["Pan-fried with brown butter and almonds", "Grilled whole over hardwood", "Poached in white wine with herbs"],
-    "notes": ["Mild to moderately rich, fine-flaked, clean tasting"],
-    "origin": "Great Lakes tributaries, Lake Michigan nearshore, Lake Superior",
-    "iceFishing": true
+    "notes": [
+      "Mild to moderately rich, fine-flaked, clean tasting"
+    ],
+    "origin": "Lake Michigan nearshore (Milwaukee to Waukegan corridor), cold-water tributaries — Au Sable, Manistee, Pigeon rivers (Michigan); Root and Milwaukee rivers (Wisconsin)"
   },
   {
     "id": "steelhead",
     "name": "Steelhead Trout",
     "category": "fish",
-    "months": [3, 4, 5, 10, 11],
-    "peakMonths": [4, 5],
+    "months": [
+      "March",
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "April",
+      "May"
+    ],
     "description": "The Great Lakes strain of rainbow trout that migrates into rivers to spawn. A powerful, acrobatic fish beloved by fly anglers. Spring runs up midwest rivers — the St. Joseph, Platte, and Muskegon — are renowned.",
-    "cookingMethods": ["Grilled skin-on", "Pan-seared", "Hot-smoked", "Poached in white wine"],
-    "notes": ["Mild to moderately rich, pink-orange flesh, clean and delicate"],
-    "origin": "Lake Michigan and Lake Superior tributaries — rivers in spring and fall",
-    "iceFishing": false
+    "notes": [
+      "Mild to moderately rich, pink-orange flesh, clean and delicate"
+    ],
+    "origin": "Lake Michigan tributaries (Muskegon, Platte, St. Joseph, Betsie rivers — Michigan), Lake Superior (Brule River, Wisconsin)"
   },
   {
     "id": "whitefish",
     "name": "Lake Whitefish",
     "category": "fish",
-    "months": [11, 12, 1, 2, 3],
-    "peakMonths": [12, 1],
+    "months": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "peakMonths": [
+      "December",
+      "January"
+    ],
     "description": "A beloved native Great Lakes species with buttery, rich white flesh. Famous throughout the upper midwest in smoked form. Fat content peaks in late fall and winter, making this the ideal harvest season.",
-    "cookingMethods": ["Cold-smoked whole (the definitive preparation)", "Pan-fried with brown butter", "Baked with lemon and dill"],
-    "notes": ["Rich, buttery, mild — exceptional smoked; the best freshwater fish for smoking"],
-    "origin": "Lake Superior, Lake Michigan, Lake Huron — deepwater, 60–200 feet",
-    "iceFishing": true
+    "notes": [
+      "Rich, buttery, mild — exceptional smoked; the best freshwater fish for smoking"
+    ],
+    "origin": "Lake Superior (commercial fishery centered on Bayfield, Wisconsin and Keweenaw Bay, Michigan), Lake Michigan (Naubinway, Michigan), Lake Huron — deepwater 60–200 ft"
   },
   {
     "id": "northern-pike",
     "name": "Northern Pike",
     "category": "fish",
-    "months": [4, 5, 9, 10, 1, 2, 3],
-    "peakMonths": [4, 5],
+    "months": [
+      "April",
+      "May",
+      "September",
+      "October",
+      "January",
+      "February",
+      "March"
+    ],
+    "peakMonths": [
+      "April",
+      "May"
+    ],
     "description": "A formidable ambush predator found throughout Great Lakes tributary marshes and bays. Notorious for Y-shaped bones, but larger fish over 5 lbs have proportionally fewer bones and are more practical table fish.",
-    "cookingMethods": ["Pickled pike (traditional Scandinavian-midwest preparation)", "Deep-fried", "Fish cakes (addresses bones)"],
-    "notes": ["Mild, white, very clean — excellent when prepared fresh"],
-    "origin": "All Great Lakes and connected bays, rivers, and wetlands throughout the midwest",
-    "iceFishing": true
+    "notes": [
+      "Mild, white, very clean — excellent when prepared fresh"
+    ],
+    "origin": "Green Bay (Lake Michigan), Saginaw Bay (Lake Huron), western Lake Erie marshes — also inland lakes throughout Wisconsin, Michigan, and Minnesota"
   },
   {
     "id": "smallmouth-bass",
     "name": "Smallmouth Bass",
     "category": "fish",
-    "months": [6, 7, 8, 9],
-    "peakMonths": [7, 8],
+    "months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "July",
+      "August"
+    ],
     "description": "One of North America's most prized sport fish — powerful, fast, and acrobatic. Found in clear rocky Great Lakes shallows. Mostly catch-and-release, but legal to keep in season. Size limit regulations protect the fishery.",
-    "cookingMethods": ["Pan-fried", "Grilled over hardwood", "Baked with lemon and herbs"],
-    "notes": ["Mild, clean, white flesh"],
-    "origin": "Lake Erie, Lake Ontario, Lake Huron rocky shorelines; rivers with gravel bottoms",
-    "iceFishing": false
+    "notes": [
+      "Mild, clean, white flesh"
+    ],
+    "origin": "Lake Erie (south bass Island, Kelleys Island rocky reefs), Lake Ontario, Lake Huron rocky shorelines; St. Clair River; gravel-bottomed rivers throughout the Ozarks and Great Lakes basin"
   },
   {
     "id": "asparagus",
     "name": "Asparagus",
     "category": "vegetable",
-    "months": [4, 5, 6],
-    "peakMonths": [5],
-    "description": "One of spring's first arrivals — tender shoots push through cold midwest soil as temperatures rise. Michigan is the nation's top asparagus producer.",
-    "cookingMethods": ["Tempura-battered and fried", "Stir-fried with oyster sauce", "Miso soup garnish"],
-    "notes": ["Rich in folate", "High in fiber", "Good source of vitamins K and C"],
-    "origin": "Michigan (nation's top producer) / Midwest"
+    "months": [
+      "April",
+      "May",
+      "June"
+    ],
+    "peakMonths": [
+      "May"
+    ],
+    "description": "Slender, tender shoots with a mild, slightly sweet, nutty flavor best showcased by simple preparations—grilled, roasted, or sautéed briefly in olive oil. Thin spears are ideal for quick cooking (2–4 minutes); thicker spears suit grilling and roasting at 400°F. Local Michigan and Illinois asparagus from direct farm suppliers reaches Chicago markets in April and May, weeks fresher and more tender than off-season imports.",
+    "notes": [
+      "Snap off the woody base by bending gently until the stalk breaks naturally—no knife needed.",
+      "Nichols Farm & Orchard offers weekly CSA pickups at multiple Chicago neighborhood locations including Lincoln Park, West Loop, South Loop, and Logan Square.",
+      "Peak season is mid-April through May; early April and June supplies are more limited and variable depending on spring weather."
+    ],
+    "origin": "Nichols Farm & Orchard (Marengo, IL) supplies Chicago CSA pickups throughout the city, and Spence Farm (Fairbury, IL) distributes from 60+ Central Illinois farms to Chicago chefs and specialty vendors."
   },
   {
     "id": "rhubarb",
     "name": "Rhubarb",
     "category": "vegetable",
-    "months": [4, 5, 6],
-    "peakMonths": [5],
-    "description": "Brilliant crimson stalks with intense tartness. A midwest spring staple for jams, compotes, and pies. Often the first garden harvest of the year.",
-    "cookingMethods": [],
-    "notes": ["High in vitamin K", "Good source of calcium", "Rich in antioxidants"],
-    "origin": "Midwest"
+    "months": [
+      "April",
+      "May",
+      "June"
+    ],
+    "peakMonths": [
+      "May"
+    ],
+    "description": "Brilliant crimson stalks with intense tartness require the leaves to be removed (which contain toxic oxalic acid). Stalks are typically sliced thin (½-inch for pies) or chunky (1-inch for stewing). Best uses are compotes, pies (classically paired with strawberries), and roasting at high heat to concentrate sweetness and develop caramelization. Midwest rhubarb from farm-direct suppliers reaches peak flavor in May and arrives weeks fresher than supermarket imports.",
+    "notes": [
+      "Stew for 5 minutes with water, then cook until thick and clear; roast at high heat for 15–20 minutes until tender and caramelized.",
+      "Nichols Farm & Orchard (Marengo, IL) offers CSA pickups at multiple Chicago locations: Lincoln Park, West Loop, South Loop, Logan Square, Andersonville, Uptown, Edgewater, Wicker Park, and Near North.",
+      "April through May is peak availability at Chicago CSA and farmers markets; June supply becomes limited and variable depending on weather and demand."
+    ],
+    "origin": "Nichols Farm & Orchard (Marengo, IL) distributes fresh spring rhubarb to Chicago CSA pickups throughout the North Side, West Loop, South Loop, and Logan Square neighborhoods from April through June."
   },
   {
     "id": "watercress",
     "name": "Watercress",
     "category": "vegetable",
-    "months": [4, 5, 6],
-    "peakMonths": [5],
-    "description": "Peppery aquatic greens found along clear cold streams. Harvested wild or cultivated in spring before summer heat turns them bitter.",
-    "cookingMethods": ["Chinese watercress soup (xīyáng cài tāng)", "Japanese salad with sesame dressing", "Korean seasoned greens (namul)"],
-    "notes": ["Rich in vitamins A, C, and K", "Anti-inflammatory", "High in calcium"],
-    "origin": "Midwest waterways"
+    "months": [
+      "March",
+      "April",
+      "May",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "April",
+      "May"
+    ],
+    "description": "Peppery aquatic greens with a sharp, mustard-like bite best enjoyed raw in salads, sandwiches, and soups, or briefly wilted in hot preparations like stir-fries with garlic. The tender young leaves and thin stems are ideal; remove thick woody stems before cooking. Spring harvests (April–May) are sweetest; summer heat turns watercress bitter and floral. Fall harvests are possible but less reliable. Fresh local watercress from Chicago-area CSAs and farmers markets is noticeably more delicate and flavorful than commodity supermarket imports.",
+    "notes": [
+      "Blanch briefly (1–2 minutes) then ice-shock to retain bright color; sauté quickly in hot oil or butter with garlic to mellow peppery intensity.",
+      "Watercress is rarely cultivated commercially in the Midwest—spring availability at Chicago farmers markets (Green City Market, neighborhood CSAs) is seasonal and variable; fall supply is less predictable.",
+      "Peak flavor in cool months (March–May, October–November); summer heat above 85°F makes plants bolt and leaves become bitter and unsuitable."
+    ],
+    "origin": "Foraged from cold spring-fed streams or grown at CSA farms throughout the upper Midwest; available seasonally at Chicago farmers markets (Green City Market, neighborhood CSAs) primarily in spring months, though limited commercial Midwest production means availability varies."
   },
   {
     "id": "green-onions",
     "name": "Green Onions",
     "category": "vegetable",
-    "months": [4, 5, 6, 7, 8, 9, 10],
-    "peakMonths": [5, 6, 7],
-    "description": "Slender, mild alliums available through most of the growing season. Indispensable across all three major East Asian cuisines.",
-    "cookingMethods": ["Ramen topping", "Kimchi ingredient", "Gyoza filling", "Scallion pancakes (pajeon)", "Stir-fry base"],
-    "notes": ["Rich in vitamin K", "Good source of vitamin C", "Contains quercetin"],
-    "origin": "Midwest"
+    "months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "May",
+      "June",
+      "July"
+    ],
+    "description": "Slender alliums with a crisp white bulb and tender green tops — the white base has a sharp, pungent onion flavor ideal for sautéing and stir-fries, while the mild, grassy green tops work best as a fresh raw garnish or briefly wilted. Essential across Chinese, Korean, and Japanese cuisines. Fresh local green onions keep best for 3–5 days; the tender green tops wilt first.",
+    "notes": [
+      "White bulb adds depth when sautéed or stir-fried in high heat; green tops scatter on top at the end to retain bright color and freshness.",
+      "Nichols Farm & Orchard offers weekly CSA pickups at 40+ Chicago-area locations including Lincoln Park, West Loop, and Logan Square.",
+      "Peak season May–July; limited availability in April and August depending on spring warmth and early fall weather."
+    ],
+    "origin": "Nichols Farm & Orchard (Marengo, IL) supplies green onions through Chicago CSA pickups; Spence Farm (Fairbury, IL) distributes from Central Illinois farms to Chicago restaurants and specialty vendors."
   },
   {
     "id": "spinach",
     "name": "Spinach",
     "category": "vegetable",
-    "months": [4, 5, 6, 9, 10, 11],
-    "peakMonths": [5, 10],
-    "description": "Tender leaves thrive in cool spring and fall weather. Fall spinach is notably sweeter. Loses flavor quickly in summer heat.",
-    "cookingMethods": ["Ohitashi (Japanese blanched salad with dashi and soy)", "Doenjang jjigae addition", "Stir-fried with garlic and sesame oil"],
-    "notes": ["Iron-rich", "High in vitamins A and K", "Good source of magnesium"],
-    "origin": "Midwest"
+    "months": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "May",
+      "October"
+    ],
+    "description": "Tender leaves excel raw in salads or cooked via sautéing, stir-frying, steaming, and creaming; works well in spanakopita, risotto, and soups. Spring spinach is mild and tender; fall spinach — harvested as temperatures cool — is notably sweeter and more flavorful. Fresh local spinach from Chicago CSA suppliers and farmers markets stays crisp 4–5 days refrigerated, far superior in flavor and texture to commodity supermarket imports.",
+    "notes": [
+      "Sauté briefly in olive oil or butter with garlic (1–2 minutes) to retain color and delicate texture; season with lemon juice or acid to brighten flavor.",
+      "Nichols Farm & Orchard offers weekly CSA pickups at 40+ Chicago locations including Lincoln Park, West Loop, South Loop, and Logan Square.",
+      "Fall spinach (September–November) is sweeter and more robust than spring spinach; peak quality in October after light frosts concentrate sugars."
+    ],
+    "origin": "Nichols Farm & Orchard (Marengo, IL) supplies spinach through Chicago CSA pickups at 40+ neighborhood locations including Lincoln Park, West Loop, and Logan Square; Spence Farm (Fairbury, IL) distributes from 60+ Central Illinois farms to Chicago restaurants."
   },
   {
     "id": "radishes",
     "name": "Radishes",
     "category": "vegetable",
-    "months": [4, 5, 6, 9, 10],
-    "peakMonths": [5, 10],
-    "description": "Spring varieties are crisp and peppery; fall radishes grow larger and sweeter. Midwest farms grow both red table radishes and large Asian-type varieties.",
-    "cookingMethods": ["Tsukemono (Japanese quick pickles)", "Kkakdugi (cubed radish kimchi)", "Shredded in sunomono salad", "Braised in Korean soups"],
-    "notes": ["Low calorie", "Good source of vitamin C", "Digestive enzymes"],
-    "origin": "Midwest"
+    "months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "May",
+      "October"
+    ],
+    "description": "Spring table radishes (April–May) are tender and mildly peppery; fall radishes (September–October) grow larger and develop deeper, sweeter flavor. Radishes excel raw and thin-sliced in salads, pickles, and open-faced sandwiches; they also roast beautifully with olive oil and lemon at high heat, becoming tender with caramelized edges. Large Asian varieties (daikon, Korean mu) are essential to kimchi, pickling, and stir-fries. Fresh local radishes from Chicago CSA suppliers are crisper and more flavorful than commodity supermarket imports.",
+    "notes": [
+      "Thin-slice raw radishes for salads and garnishes; their peppery bite mellows when cooked—roast at 425°F with oil and salt until tender and caramelized (12–15 minutes).",
+      "Nichols Farm & Orchard includes radishes in fall CSA shares with weekly pickups at Lincoln Park, West Loop, South Loop, Logan Square, and other Chicago neighborhoods.",
+      "Spring radishes (April–May) bolt and become woody above 70°F; fall planting (August–September) succeeds because cooling temperatures prevent bolting.",
+      "Radish greens are fully edible—sauté briefly with garlic or add raw to salads; store greens separately from roots to prevent moisture loss."
+    ],
+    "origin": "Nichols Farm & Orchard (Marengo, IL) supplies radishes year-round through Chicago CSA pickups, with spring and fall varieties from Midwest farms; Asian varieties (daikon, Korean mu) from specialty Asian farms in the Chicago metropolitan area serving Korean and Japanese communities."
   },
   {
     "id": "garlic-scapes",
     "name": "Garlic Scapes",
     "category": "vegetable",
-    "months": [5, 6],
-    "peakMonths": [6],
-    "description": "The tender spiral shoots that grow atop hardneck garlic before bulb harvest. Mildly garlicky with a grassy freshness — one of the most sought-after early summer market items.",
-    "cookingMethods": ["Stir-fried garlic scapes (炒蒜苔)", "Korean garlic scape kimchi (jjongmaul kimchi)", "Japanese pickled scapes", "Scape pesto for dumplings"],
-    "notes": ["Contains allicin", "Good source of vitamin C", "Anti-inflammatory"],
-    "origin": "Midwest"
+    "months": [
+      "May",
+      "June"
+    ],
+    "peakMonths": [
+      "June"
+    ],
+    "description": "Tender, spiral-shaped shoots harvested from hardneck garlic plants with a mild garlic flavor and crisp-tender texture. Best served grilled with a light char, sautéed with pasta, blended into pesto, or pickled. Blanch briefly (1–2 minutes) then grill or roast at high heat to bring out sweetness. Fresh Chicago-area scapes are crispier and more delicate than commodity imports, with exceptional flavor due to local hardneck garlic cultivation.",
+    "notes": [
+      "Snap off the woody base (similar to asparagus); the tender top 6–8 inches are ideal. Tough bases can be simmered whole in soups like bay leaves.",
+      "Froggy Meadow Farm (Beloit, WI, supplying Green City Market Chicago) offers scapes starting mid-June through mid-July at Lincoln Park location.",
+      "Harvest window is mid-June in central Midwest; scapes emerge 3–4 weeks before bulb harvest and must be removed to channel energy into bulb development."
+    ],
+    "origin": "Froggy Meadow Farm (Beloit, WI) supplies hardneck garlic scapes exclusively to Green City Market at the Lincoln Park year-round location, with mid-June peak availability; hardneck varieties are the only source of scapes and are rarely found outside farmers markets."
   },
   {
     "id": "shiso",
     "name": "Shiso (Perilla)",
     "category": "vegetable",
-    "months": [6, 7, 8, 9],
-    "peakMonths": [7, 8],
-    "description": "Aromatic Japanese herb in the mint family with a distinctive anise-basil-mint flavor. Grows readily in midwest gardens through summer. Green (aojiso) and red (akajiso) varieties are both useful.",
-    "cookingMethods": ["Sashimi garnish", "Onigiri wrapping", "Tempura leaf", "Kkaennip (Korean perilla) wraps for grilled meat", "Pickled in soy sauce (yukari)"],
-    "notes": ["Rich in rosmarinic acid (antioxidant)", "Anti-inflammatory", "Good source of vitamin A"],
-    "origin": "Midwest gardens"
+    "months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "July",
+      "August"
+    ],
+    "description": "Aromatic Japanese herb with a distinctive anise-basil-mint flavor; green shiso (aojiso) is used fresh as a garnish in sushi, sashimi, salads, and seafood dishes, or fried crisp in tempura (25–30 seconds at 350°F yields best results); red shiso (akajiso) is traditionally used for pickling and seasoning. Fresh local shiso from Chicago-area Japanese farms is noticeably more aromatic and tender than imported specimens.",
+    "notes": [
+      "Aojiso (green) has a sharp, refreshing flavor best enjoyed fresh; akajiso (red) is more astringent and metallic, suited for pickling and colorant.",
+      "Tempura frying (25–30 seconds) preserves volatiles better than longer cooking; heat destroys aromatic compounds within 60 seconds except during quick frying.",
+      "Hinata Farms (Rachel Kimura, Edgewater/Rogers Park neighborhood) grows shiso and supplies local restaurants; contact rachel@hinatafarms.com or 773.236.7791."
+    ],
+    "origin": "Hinata Farms (Chicago, Edgewater/Rogers Park neighborhood) specializes in Asian heritage vegetables and herbs including shiso and supplies local restaurants and community members."
   },
   {
     "id": "peas",
     "name": "Peas",
     "category": "vegetable",
-    "months": [5, 6, 7],
-    "peakMonths": [6],
-    "description": "Sweet snap peas and shell peas peak in early summer before heat makes pods tough. Particularly delicious eaten fresh from the pod at the farm.",
-    "cookingMethods": ["Snow peas in stir-fry with shrimp", "Snap peas with miso dip", "Chilled pea salad with sesame dressing"],
-    "notes": ["High in protein for a vegetable", "Rich in vitamins C and K", "Good source of fiber"],
-    "origin": "Midwest"
+    "months": [
+      "May",
+      "June",
+      "July"
+    ],
+    "peakMonths": [
+      "June"
+    ],
+    "description": "Sugar snap peas and shell peas thrive in cool midwest springs. Snap peas are eaten whole with pods—raw, stir-fried, or briefly roasted at high heat until pods blister; shell peas are shelled and steamed 2–3 minutes or simmered just until tender. Fresh local peas from Chicago CSA suppliers arrive weeks earlier and sweeter than supermarket imports, with a delicate texture that deteriorates rapidly after harvest.",
+    "notes": [
+      "Snap peas: remove string along both seams before eating or cooking; brief high-heat roasting (10 minutes at 450°F) brings out natural sweetness.",
+      "Shell peas: steam or simmer 2–3 minutes only—overcooking causes waterlogging and mushy texture; pair with mint, butter, or light cream.",
+      "Nichols Farm & Orchard (Marengo, IL) offers weekly CSA pickups at 13+ Chicago locations including Lincoln Park, West Loop, South Loop, Logan Square, and Andersonville starting mid-May."
+    ],
+    "origin": "Nichols Farm & Orchard (Marengo, IL) supplies snap peas and sugar snap peas through weekly Chicago CSA pickups at 13+ neighborhood locations; Spence Farm (Fairbury, IL) distributes from Central Illinois farms to Chicago restaurants and specialty vendors."
   },
   {
     "id": "bok-choy",
     "name": "Bok Choy",
     "category": "vegetable",
-    "months": [5, 6, 9, 10, 11],
-    "peakMonths": [5, 10],
+    "months": [
+      "May",
+      "June",
+      "September",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "May",
+      "October"
+    ],
     "description": "Tender Chinese cabbage that thrives in cool midwest springs and falls. Baby bok choy is especially prized for sweetness and tenderness.",
-    "cookingMethods": ["Stir-fried with ginger and garlic", "Braised in oyster sauce", "Ramen topping", "Hot pot", "Congee garnish"],
-    "notes": ["Rich in vitamins A and C", "Good source of calcium", "Anti-inflammatory"],
-    "origin": "Midwest"
+    "notes": [
+      "Rich in vitamins A and C",
+      "Good source of calcium",
+      "Anti-inflammatory"
+    ],
+    "origin": "Specialty Asian vegetable farms in the Chicago (Hmong and Chinese community farmers in the western suburbs), Detroit, Minneapolis, and Columbus metro areas; broadly available through Asian wholesale distributors"
   },
   {
     "id": "kohlrabi",
     "name": "Kohlrabi",
     "category": "vegetable",
-    "months": [5, 6, 9, 10],
-    "peakMonths": [5, 9],
+    "months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "May",
+      "September"
+    ],
     "description": "A crisp, mild-flavored bulb that tastes like a cross between broccoli stem and apple. One of the most underutilized midwest vegetables. Both the bulb and the leaves are edible.",
-    "cookingMethods": ["Korean kohlrabi kimchi (alternative to daikon)", "Chinese stir-fried julienned kohlrabi with garlic", "Raw in Vietnamese-style salads"],
-    "notes": ["High in vitamin C", "Good source of potassium and fiber", "Very low calorie"],
-    "origin": "Midwest"
+    "notes": [
+      "High in vitamin C",
+      "Good source of potassium and fiber",
+      "Very low calorie"
+    ],
+    "origin": "Traditional German-heritage farm country of Wisconsin and Minnesota; CSA farms throughout the upper Midwest; particularly common in the Milwaukee and Twin Cities markets"
   },
   {
     "id": "strawberries",
     "name": "Strawberries",
     "category": "fruit",
-    "months": [6, 7],
-    "peakMonths": [6],
-    "pickingSeason": { "start": 6, "end": 7 },
+    "months": [
+      "June",
+      "July"
+    ],
+    "peakMonths": [
+      "June"
+    ],
+    "pickingSeason": {
+      "start": "June",
+      "end": "July"
+    },
     "description": "Intensely fragrant and sweet, midwest strawberries peak in early June and are far superior to off-season imports. Their season is brief — the flavor deteriorates within days of picking.",
-    "cookingMethods": ["Ichigo daifuku (strawberry mochi)", "Ichigo shortcake (Japanese-style sponge cake)", "Fruit sando (Japanese fruit sandwiches)"],
-    "notes": ["High in vitamin C", "Rich in antioxidants", "Good source of fiber"],
-    "origin": "Midwest"
+    "notes": [
+      "High in vitamin C",
+      "Rich in antioxidants",
+      "Good source of fiber"
+    ],
+    "origin": "Michigan (Ottawa, Van Buren, and Berrien counties), Ohio, Indiana, and Illinois; u-pick farms throughout the Midwest are the primary retail source"
   },
   {
     "id": "cherries-sweet",
     "name": "Sweet Cherries",
     "category": "fruit",
-    "months": [7],
-    "peakMonths": [7],
-    "pickingSeason": { "start": 7, "end": 7 },
+    "months": [
+      "July"
+    ],
+    "peakMonths": [
+      "July"
+    ],
+    "pickingSeason": {
+      "start": "July",
+      "end": "July"
+    },
     "description": "Dark, juicy sweet cherries ripen in mid-July across Michigan orchards. A brief, precious season — best eaten within days of picking.",
-    "cookingMethods": ["Seasonal parfait topping", "Fruit sando filling", "Wagashi (traditional confectionery)"],
-    "notes": ["Anti-inflammatory compounds", "Natural melatonin source", "Rich in antioxidants"],
-    "origin": "Michigan (northwestern orchards)"
+    "notes": [
+      "Anti-inflammatory compounds",
+      "Natural melatonin source",
+      "Rich in antioxidants"
+    ],
+    "origin": "Michigan — Leelanau and Grand Traverse counties (the Old Mission and Leelanau peninsulas produce nearly 80% of U.S. sweet cherries some years)"
   },
   {
     "id": "cherries-tart",
     "name": "Tart Cherries",
     "category": "fruit",
-    "months": [7, 8],
-    "peakMonths": [7],
-    "pickingSeason": { "start": 7, "end": 8 },
+    "months": [
+      "July",
+      "August"
+    ],
+    "peakMonths": [
+      "July"
+    ],
+    "pickingSeason": {
+      "start": "July",
+      "end": "August"
+    },
     "description": "Michigan is the nation's top producer of Montmorency tart cherries. These brilliant red, intensely flavored cherries are ideal for preserves, pies, and juice.",
-    "cookingMethods": [],
-    "notes": ["High in anti-inflammatory compounds", "Rich in melatonin", "Good source of vitamins A and C"],
-    "origin": "Michigan (Traverse City region)"
+    "notes": [
+      "High in anti-inflammatory compounds",
+      "Rich in melatonin",
+      "Good source of vitamins A and C"
+    ],
+    "origin": "Michigan — Traverse City region (Grand Traverse, Benzie, and Antrim counties) produces roughly 75% of the U.S. tart cherry crop; Montmorency is the dominant variety"
   },
   {
     "id": "blueberries",
     "name": "Blueberries",
     "category": "fruit",
-    "months": [7, 8],
-    "peakMonths": [7, 8],
-    "pickingSeason": { "start": 7, "end": 8 },
+    "months": [
+      "July",
+      "August"
+    ],
+    "peakMonths": [
+      "July",
+      "August"
+    ],
+    "pickingSeason": {
+      "start": "July",
+      "end": "August"
+    },
     "description": "Plump, dusty-blue berries cluster on low bushes across the upper midwest. Michigan ranks among the top producing states in the nation.",
-    "cookingMethods": ["Blueberry daifuku mochi", "Fruit parfait", "Kakigori (shaved ice) topping"],
-    "notes": ["Highest antioxidant content of any common fruit", "Brain health benefits", "Rich in vitamins C and K"],
-    "origin": "Michigan (southwestern / northern)"
+    "notes": [
+      "Highest antioxidant content of any common fruit",
+      "Brain health benefits",
+      "Rich in vitamins C and K"
+    ],
+    "origin": "Michigan — Van Buren and Allegan counties (southwestern) and Oceana County lead state production; also northern Michigan near Muskegon and Newaygo counties"
   },
   {
     "id": "raspberries",
     "name": "Raspberries",
     "category": "fruit",
-    "months": [7, 8, 9],
-    "peakMonths": [7, 8],
-    "pickingSeason": { "start": 7, "end": 9 },
+    "months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "July",
+      "August"
+    ],
+    "pickingSeason": {
+      "start": "July",
+      "end": "September"
+    },
     "description": "Delicate ruby-red raspberries require careful picking but reward with intense flavor. Some farms have a fall second crop in September.",
-    "cookingMethods": ["Seasonal mochi filling", "Layered parfaits", "Kakigori topping"],
-    "notes": ["High in fiber", "Rich in antioxidants", "Good source of vitamins C and K"],
-    "origin": "Midwest"
+    "notes": [
+      "High in fiber",
+      "Rich in antioxidants",
+      "Good source of vitamins C and K"
+    ],
+    "origin": "Michigan (Ottawa and Kent counties), Minnesota, and Wisconsin; u-pick farms throughout the upper Midwest; Minnesota is a leading state for bramble fruit production"
   },
   {
     "id": "plums",
     "name": "Plums",
     "category": "fruit",
-    "months": [7, 8, 9],
-    "peakMonths": [8],
-    "pickingSeason": { "start": 7, "end": 9 },
+    "months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "August"
+    ],
+    "pickingSeason": {
+      "start": "July",
+      "end": "September"
+    },
     "description": "Juicy stone fruit with a tart skin and sweet flesh. Both Japanese and European varieties grow in midwest orchards, offering a long combined season from July through September.",
-    "cookingMethods": ["Umeshu inspiration (Japanese plum liqueur)", "Chinese plum sauce (李子酱)", "Plum jam for wagashi fillings"],
-    "notes": ["Good source of vitamins C and K", "Contains sorbitol (digestive aid)", "Rich in antioxidants"],
-    "origin": "Midwest orchards"
+    "notes": [
+      "Good source of vitamins C and K",
+      "Contains sorbitol (digestive aid)",
+      "Rich in antioxidants"
+    ],
+    "origin": "Michigan (Berrien and Van Buren counties), Ohio, and Indiana; Italian prune plums common in Wisconsin orchards with German-heritage roots; Japanese varieties from Michigan and Illinois"
   },
   {
     "id": "cantaloupe",
     "name": "Cantaloupe",
     "category": "fruit",
-    "months": [7, 8, 9],
-    "peakMonths": [8],
+    "months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "August"
+    ],
     "description": "Sweet, fragrant muskmelons grown across the midwest, with heavy production in Illinois and Indiana. The best ones smell like perfume through a paper bag.",
-    "cookingMethods": ["Chinese cantaloupe juice drink", "Korean hwachae (fruit punch)", "Melon sando (Japanese fruit sandwiches)"],
-    "notes": ["Rich in beta-carotene", "High in vitamin C and potassium", "Very high water content (hydrating)"],
-    "origin": "Illinois / Indiana"
+    "notes": [
+      "Rich in beta-carotene",
+      "High in vitamin C and potassium",
+      "Very high water content (hydrating)"
+    ],
+    "origin": "Indiana (especially the southwestern counties along the Wabash River) and Illinois (Henderson and Knox counties); roadside stands in central Indiana are a regional landmark"
   },
   {
     "id": "watermelon",
     "name": "Watermelon",
     "category": "fruit",
-    "months": [7, 8, 9],
-    "peakMonths": [8],
+    "months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "August"
+    ],
     "description": "Juicy, sweet melons grown across the midwest, especially in Indiana and Illinois. Summer heat is essential for developing the high sugar content midwest watermelons are known for.",
-    "cookingMethods": ["Watermelon juice (popular in Chinese summer cooking)", "Korean hwachae (fruit punch)", "Kakigori topping", "Chilled watermelon with tajin"],
-    "notes": ["92% water (hydrating)", "Rich in lycopene", "Good source of vitamins A and C"],
-    "origin": "Indiana / Illinois"
+    "notes": [
+      "92% water (hydrating)",
+      "Rich in lycopene",
+      "Good source of vitamins A and C"
+    ],
+    "origin": "Indiana (Rush and Shelby counties lead state production) and Illinois; Missouri is a significant producer; roadside farm stands are the primary retail channel"
   },
   {
     "id": "peaches",
     "name": "Peaches",
     "category": "fruit",
-    "months": [7, 8, 9],
-    "peakMonths": [8],
-    "pickingSeason": { "start": 8, "end": 9 },
+    "months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "August"
+    ],
+    "pickingSeason": {
+      "start": "August",
+      "end": "September"
+    },
     "description": "Fragrant, dripping-ripe midwest peaches are a fleeting late-summer treasure. Michigan's southwestern counties produce some of the finest peaches in the country.",
-    "cookingMethods": ["Momo (peach) mochi", "Peach osmanthus soup (Chinese dessert)", "Seasonal kakigori topping"],
-    "notes": ["Good source of vitamins C and A", "Rich in potassium", "High in fiber"],
-    "origin": "Michigan (southwestern counties)"
+    "notes": [
+      "Good source of vitamins C and A",
+      "Rich in potassium",
+      "High in fiber"
+    ],
+    "origin": "Michigan — Berrien, Van Buren, and Allegan counties (the Lake Michigan fruit belt, where the lake moderates temperature); also southern Illinois and Indiana"
   },
   {
     "id": "zucchini",
     "name": "Zucchini",
     "category": "vegetable",
-    "months": [6, 7, 8, 9],
-    "peakMonths": [7, 8],
+    "months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "July",
+      "August"
+    ],
     "description": "Prolific summer squash available in abundance through late summer. Young tender squash is best; overgrown ones become watery and seedy.",
-    "cookingMethods": ["Tempura (thinly sliced diagonally)", "Kakiage fritters", "Miso gratin"],
-    "notes": ["Low calorie", "Good source of vitamin C", "High in potassium"],
-    "origin": "Midwest"
+    "notes": [
+      "Low calorie",
+      "Good source of vitamin C",
+      "High in potassium"
+    ],
+    "origin": "Ubiquitous at farms throughout the Midwest; grown commercially in Michigan and Illinois; a fixture at every Midwest farmers market from June through September"
   },
   {
     "id": "thai-basil",
     "name": "Thai Basil",
     "category": "vegetable",
-    "months": [6, 7, 8, 9],
-    "peakMonths": [7, 8],
+    "months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "July",
+      "August"
+    ],
     "description": "Aromatic herb with anise-clove flavor essential to Southeast Asian and Taiwanese cooking. Thrives in midwest summer heat. Distinctly different flavor from Italian sweet basil.",
-    "cookingMethods": ["Three-cup chicken (三杯雞) — added at the last second", "Stir-fried with clams", "Thai basil fried rice", "Added whole to hot broths"],
-    "notes": ["Contains eugenol (anti-inflammatory)", "Good source of vitamin A", "Rich in antioxidants"],
-    "origin": "Midwest"
+    "notes": [
+      "Contains eugenol (anti-inflammatory)",
+      "Good source of vitamin A",
+      "Rich in antioxidants"
+    ],
+    "origin": "Specialty Asian herb farms in the Midwest — Hmong and Southeast Asian farmers in the Minneapolis–St. Paul and Milwaukee areas are major producers; also Chicago suburban farms"
   },
   {
     "id": "cucumbers",
     "name": "Cucumbers",
     "category": "vegetable",
-    "months": [7, 8, 9],
-    "peakMonths": [7, 8],
+    "months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "July",
+      "August"
+    ],
     "description": "Cool and crisp, cucumbers peak in midsummer. Japanese and Korean thin-skin varieties grow well in midwest gardens and are especially prized for pickling and fresh eating.",
-    "cookingMethods": ["Tsukemono (Japanese quick pickles)", "Oi muchim (Korean spicy cucumber)", "Sunomono (vinegared salad with sesame)", "Cold cucumber soup"],
-    "notes": ["High water content (hydrating)", "Low calorie", "Good source of vitamin K"],
-    "origin": "Midwest"
+    "notes": [
+      "High water content (hydrating)",
+      "Low calorie",
+      "Good source of vitamin K"
+    ],
+    "origin": "Michigan is the nation's top pickling cucumber state (Saginaw Valley leads); slicing and Asian varieties from Ohio and Indiana; Japanese and Korean varieties from specialty farms in metro areas"
   },
   {
     "id": "cherry-tomatoes",
     "name": "Cherry Tomatoes",
     "category": "vegetable",
-    "months": [7, 8, 9, 10],
-    "peakMonths": [8],
+    "months": [
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "August"
+    ],
     "description": "Small, intensely sweet tomatoes that ripen weeks before large-fruited types. Cherry tomatoes stay productive all summer and into fall, making them the most reliable fresh tomato.",
-    "cookingMethods": ["Japanese cherry tomato sunomono", "Chinese cherry tomato stir-fry with egg", "Korean tomato banchan with sesame oil"],
-    "notes": ["Rich in lycopene", "Very high in vitamin C relative to size", "Contains potassium"],
-    "origin": "Midwest"
+    "notes": [
+      "Rich in lycopene",
+      "Very high in vitamin C relative to size",
+      "Contains potassium"
+    ],
+    "origin": "Grown at market farms throughout the Midwest; Ohio and Michigan are leading fresh tomato states; available at virtually every Midwest farmers market"
   },
   {
     "id": "heirloom-tomatoes",
     "name": "Heirloom Tomatoes",
     "category": "vegetable",
-    "months": [7, 8, 9],
-    "peakMonths": [8],
+    "months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "August"
+    ],
     "description": "Open-pollinated varieties with extraordinary flavor complexity. Heirlooms trade yield and disease resistance for taste — colors range from deep purple to striped green to bright yellow.",
-    "cookingMethods": ["Japanese heirloom tomato salad with ponzu and shiso", "Chinese egg and tomato stir-fry (best with large beefsteak type)", "Sliced with soy sauce and sesame oil"],
-    "notes": ["Rich in lycopene", "Good source of vitamins C and K", "Contains potassium"],
-    "origin": "Midwest"
+    "notes": [
+      "Rich in lycopene",
+      "Good source of vitamins C and K",
+      "Contains potassium"
+    ],
+    "origin": "Specialty market farms throughout Ohio, Michigan, and Indiana; Brandywine (Pennsylvania Dutch origin) and Cherokee Purple are dominant varieties; largely sold direct at farmers markets"
   },
   {
     "id": "roma-tomatoes",
     "name": "Roma / Paste Tomatoes",
     "category": "vegetable",
-    "months": [8, 9, 10],
-    "peakMonths": [9],
+    "months": [
+      "August",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "September"
+    ],
     "description": "Thick-walled, low-moisture paste tomatoes ideal for sauce, canning, and sundrying. More forgiving than heirlooms — resist cracking after rain and produce a heavy crop.",
-    "cookingMethods": ["Chinese noodle tomato sauce base", "Korean tteokbokki sauce", "Concentrated for fermented tomato condiments"],
-    "notes": ["Very high in lycopene", "Lower water content concentrates nutrients", "Good source of vitamins C and K"],
-    "origin": "Midwest"
+    "notes": [
+      "Very high in lycopene",
+      "Lower water content concentrates nutrients",
+      "Good source of vitamins C and K"
+    ],
+    "origin": "Ohio (leading processing tomato state east of the Mississippi), Indiana, and Michigan; Ohio's Sandusky and Erie County region has historic cannery roots dating to the 1860s"
   },
   {
     "id": "eggplant",
     "name": "Eggplant",
     "category": "vegetable",
-    "months": [7, 8, 9],
-    "peakMonths": [8],
+    "months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "August"
+    ],
     "description": "Slim Japanese and Chinese varieties (lavender-purple, finger-length) thrive in midwest summer heat. Sweeter and less bitter than large globe eggplant.",
-    "cookingMethods": ["Nasu dengaku (miso-glazed broiled eggplant)", "Chinese garlic eggplant stir-fry", "Korean gaji namul", "Agedashi eggplant"],
-    "notes": ["Rich in nasunin (brain antioxidant)", "Good source of fiber", "Contains potassium"],
-    "origin": "Midwest"
+    "notes": [
+      "Rich in nasunin (brain antioxidant)",
+      "Good source of fiber",
+      "Contains potassium"
+    ],
+    "origin": "Asian variety eggplant from specialty farms serving Chinese, Korean, and Japanese communities in the Chicago, Detroit, and Columbus metro areas; globe eggplant from Michigan and Indiana"
   },
   {
     "id": "sweet-corn",
     "name": "Sweet Corn",
     "category": "vegetable",
-    "months": [7, 8, 9],
-    "peakMonths": [8],
+    "months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "August"
+    ],
     "description": "The quintessential midwest crop. Roadside stands selling just-picked corn are a summer institution. Local just-picked ears are incomparably sweet.",
-    "cookingMethods": ["Yaki tōmorokoshi (grilled corn brushed with soy butter)", "Corn potage (Japanese cream soup)", "Corn and kimchi", "Ramen topping"],
-    "notes": ["Good source of B vitamins", "High in fiber", "Contains lutein and zeaxanthin for eye health"],
-    "origin": "Illinois / Indiana"
+    "notes": [
+      "Good source of B vitamins",
+      "High in fiber",
+      "Contains lutein and zeaxanthin for eye health"
+    ],
+    "origin": "Illinois and Indiana (the heart of the Corn Belt) lead sweet corn production; Iowa, Ohio, and Michigan also significant; nearly every county has local sweet corn at roadside stands"
   },
   {
     "id": "green-beans",
     "name": "Green Beans",
     "category": "vegetable",
-    "months": [7, 8, 9],
-    "peakMonths": [7, 8],
+    "months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "July",
+      "August"
+    ],
     "description": "Crisp, snappy beans available throughout summer. Long (yard-long) beans also grow well in midwest gardens and are preferred for Asian preparations.",
-    "cookingMethods": ["Dry-fried Sichuan string beans (干煸豆角)", "Sesame-dressed beans (goma-ae)", "Japchae addition", "Korean bean namul"],
-    "notes": ["Good source of vitamins C and K", "Rich in folate", "High in fiber"],
-    "origin": "Midwest"
+    "notes": [
+      "Good source of vitamins C and K",
+      "Rich in folate",
+      "High in fiber"
+    ],
+    "origin": "Wisconsin (leading fresh and processing bean state), Michigan, and Ohio; yard-long beans from specialty Asian farms throughout the Midwest; widely available at CSA farms"
   },
   {
     "id": "garlic",
     "name": "Garlic",
     "category": "vegetable",
-    "months": [7, 8],
-    "peakMonths": [7],
+    "months": [
+      "July",
+      "August"
+    ],
+    "peakMonths": [
+      "July"
+    ],
     "description": "Fresh-harvested garlic in summer has a sweeter, more complex flavor than cured storage garlic. Hardneck varieties (Rocambole, Porcelain) are preferred by chefs for their nuanced heat.",
-    "cookingMethods": ["Korean fermented black garlic", "Mapo tofu base", "Dakgalbi (Korean spicy chicken)", "Gyoza filling", "Chili garlic sauce"],
-    "notes": ["Allicin for immune support", "Anti-inflammatory", "Cardiovascular benefits"],
-    "origin": "Midwest"
+    "notes": [
+      "Allicin for immune support",
+      "Anti-inflammatory",
+      "Cardiovascular benefits"
+    ],
+    "origin": "Small-farm production throughout the upper Midwest — Wisconsin (Driftless Area), northern Michigan, and Minnesota; Music and German Red (hardneck Porcelain/Rocambole) are leading regional varieties"
   },
   {
     "id": "peppers",
     "name": "Peppers",
     "category": "vegetable",
-    "months": [7, 8, 9, 10],
-    "peakMonths": [8, 9],
+    "months": [
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "August",
+      "September"
+    ],
     "description": "Sweet bells and hot chili varieties ripen through late summer into fall. Korean varieties (cheongyang, gochugaru types) grow well in midwest heat.",
-    "cookingMethods": ["Gochujang paste ingredient", "Stir-fry base", "Korean pepper banchan", "Chinese chili oil", "Kimchi"],
-    "notes": ["Extremely high in vitamin C (red > green)", "Capsaicin metabolic boost", "Rich in antioxidants"],
-    "origin": "Midwest"
+    "notes": [
+      "Extremely high in vitamin C (red > green)",
+      "Capsaicin metabolic boost",
+      "Rich in antioxidants"
+    ],
+    "origin": "Michigan (leading bell pepper state in the Midwest), Ohio, and Indiana; Korean hot pepper varieties from specialty Asian community farms in Chicago, Detroit, and Columbus"
   },
   {
     "id": "edamame",
     "name": "Edamame",
     "category": "vegetable",
-    "months": [8, 9, 10],
-    "peakMonths": [8, 9],
+    "months": [
+      "August",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "August",
+      "September"
+    ],
     "description": "Fresh soybeans in the fuzzy green pod, grown throughout midwest farm country. The flavor difference between fresh and frozen edamame is dramatic — fresh is sweet and grassy.",
-    "cookingMethods": ["Boiled with sea salt (classic izakaya appetizer)", "In onigiri and rice", "Edamame tofu variation", "Korean soybeans side dish"],
-    "notes": ["Complete plant protein", "High in folate", "Rich in iron and calcium"],
-    "origin": "Midwest"
+    "notes": [
+      "Complete plant protein",
+      "High in folate",
+      "Rich in iron and calcium"
+    ],
+    "origin": "Illinois (the nation's top soybean state), Iowa, and Indiana; fresh edamame varieties (distinct from field corn soybeans) grown at Japanese and Korean community farms in Chicago and Detroit metro areas"
   },
   {
     "id": "shishito",
     "name": "Shishito Peppers",
     "category": "vegetable",
-    "months": [8, 9, 10],
-    "peakMonths": [8, 9],
+    "months": [
+      "August",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "August",
+      "September"
+    ],
     "description": "Thin-skinned, mildly hot Japanese peppers that blister beautifully in a dry cast iron pan. About one in ten is surprisingly spicy — part of the Russian roulette appeal.",
-    "cookingMethods": ["Blistered with flaky salt and lemon (izakaya classic)", "Yakitori (grilled on skewers)", "Tempura shishito whole"],
-    "notes": ["Good source of vitamins A and C", "Low calorie", "Antioxidant-rich"],
-    "origin": "Midwest"
+    "notes": [
+      "Good source of vitamins A and C",
+      "Low calorie",
+      "Antioxidant-rich"
+    ],
+    "origin": "Japanese-variety specialty farms in the Chicago, Detroit, and Columbus metro areas; increasingly grown at mainstream CSA farms throughout the Midwest as demand from Japanese and Korean restaurants has grown"
   },
   {
     "id": "beets",
     "name": "Beets",
     "category": "vegetable",
-    "months": [6, 7, 8, 9, 10, 11],
-    "peakMonths": [9, 10],
+    "months": [
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "September",
+      "October"
+    ],
     "description": "Earthy and sweet, beets are harvested from early summer through fall. The greens are also edible — don't throw them away. Yellow and chioggia varieties each have distinct, milder flavors.",
-    "cookingMethods": ["Korean beet namul (seasoned greens)", "Beet tsukemono (pickled)", "Beet rice for vibrant color"],
-    "notes": ["High in folate", "Rich in nitrates for blood pressure", "Good source of manganese"],
-    "origin": "Midwest"
+    "notes": [
+      "High in folate",
+      "Rich in nitrates for blood pressure",
+      "Good source of manganese"
+    ],
+    "origin": "Wisconsin and Michigan lead Midwest beet production; sugar beet farming is historically significant in Michigan's Thumb region (Saginaw Valley) and Minnesota's Red River Valley"
   },
   {
     "id": "tomatillos",
     "name": "Tomatillos",
     "category": "vegetable",
-    "months": [8, 9, 10],
-    "peakMonths": [9],
+    "months": [
+      "August",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "September"
+    ],
     "description": "Tart, citrusy fruits in papery husks. A warm-season crop that thrives in midwest summer heat. Grown at many midwest farms, especially those serving Latin communities.",
-    "cookingMethods": [],
-    "notes": ["Good source of vitamin C", "Contains potassium", "Low calorie"],
-    "origin": "Midwest"
+    "notes": [
+      "Good source of vitamin C",
+      "Contains potassium",
+      "Low calorie"
+    ],
+    "origin": "Illinois (Chicago metropolitan area, serving large Mexican-American community), Indiana, and Ohio; small-farm production at Latino-run CSA farms; widely available at Mexican grocers sourced from regional farms"
   },
   {
     "id": "fennel",
     "name": "Fennel",
     "category": "vegetable",
-    "months": [6, 9, 10],
-    "peakMonths": [9],
+    "months": [
+      "June",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "September"
+    ],
     "description": "Anise-flavored vegetable with a crisp white bulb and feathery green fronds. Less common at midwest markets but available at farms catering to diverse clientele.",
-    "cookingMethods": ["Chinese fennel and pork dumplings (茴香猪肉饺子)", "Japanese fennel miso soup", "Used in five-spice blends"],
-    "notes": ["Good source of vitamin C and fiber", "Contains anethole (anti-inflammatory)", "Rich in potassium"],
-    "origin": "Midwest"
+    "notes": [
+      "Good source of vitamin C and fiber",
+      "Contains anethole (anti-inflammatory)",
+      "Rich in potassium"
+    ],
+    "origin": "Specialty produce farms throughout the Midwest; Italian-heritage communities in Chicago (especially the Western suburbs) and Cleveland maintain local demand; available at CSA farms and co-ops"
   },
   {
     "id": "napa-cabbage",
     "name": "Napa Cabbage",
     "category": "vegetable",
-    "months": [9, 10, 11],
-    "peakMonths": [10],
+    "months": [
+      "September",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "October"
+    ],
     "description": "The essential kimchi ingredient — grows abundantly in cool fall weather. Heads become sweet and crisp after light frosts. A pillar of Korean autumn food culture.",
-    "cookingMethods": ["Baechu kimchi (whole cabbage kimchi)", "Chinese hot pot", "Gyoza filling", "Miso soup", "Tsukemono quick pickles"],
-    "notes": ["Very low calorie", "Rich in vitamins C and K", "Contains folate and potassium"],
-    "origin": "Midwest"
+    "notes": [
+      "Very low calorie",
+      "Rich in vitamins C and K",
+      "Contains folate and potassium"
+    ],
+    "origin": "Asian specialty farms in the Chicago, Detroit, Columbus, and Minneapolis metro areas; Korean-American community farms in the Chicago suburbs (especially Glenview and Naperville corridors) are primary producers"
   },
   {
     "id": "daikon",
     "name": "Daikon",
     "category": "vegetable",
-    "months": [9, 10, 11],
-    "peakMonths": [10, 11],
+    "months": [
+      "September",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "October",
+      "November"
+    ],
     "description": "Large white radishes with mild sweetness and crunch. A cornerstone of Japanese and Korean cooking. Grows to impressive size in cool midwest fall soil.",
-    "cookingMethods": ["Kkakdugi (cubed daikon kimchi)", "Tsukemono (salt-pickled)", "Oden stew", "Miso soup", "Mu guk (Korean radish soup)", "Oroshi grated as condiment"],
-    "notes": ["Contains digestive enzymes", "Low calorie", "Good source of vitamin C"],
-    "origin": "Midwest"
+    "notes": [
+      "Contains digestive enzymes",
+      "Low calorie",
+      "Good source of vitamin C"
+    ],
+    "origin": "Japanese and Korean specialty farms in the Midwest; significant production at farms serving Chicago's Japantown (Edgewater/Rogers Park) and Korean-American communities in the western suburbs; also Twin Cities area"
   },
   {
     "id": "kabocha",
     "name": "Kabocha Squash",
     "category": "vegetable",
-    "months": [9, 10, 11],
-    "peakMonths": [10],
+    "months": [
+      "September",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "October"
+    ],
     "description": "Japanese pumpkin with dense, sweet, chestnut-flavored flesh and a dry texture. Dark green skin, vibrantly orange inside. Grows well in midwest gardens.",
-    "cookingMethods": ["Kabocha nimono (simmered in dashi)", "Kabocha tempura", "Kabocha croquettes (korokke)", "Korean pumpkin porridge (hobakjuk)"],
-    "notes": ["Very high in beta-carotene", "Rich in vitamins A and C", "Good source of iron"],
-    "origin": "Midwest"
+    "notes": [
+      "Very high in beta-carotene",
+      "Rich in vitamins A and C",
+      "Good source of iron"
+    ],
+    "origin": "Japanese specialty farms throughout the Midwest; commonly grown at farms in Michigan, Wisconsin, and Ohio serving Japanese and Korean communities; increasingly available at mainstream farmers markets"
   },
   {
     "id": "butternut-squash",
     "name": "Butternut Squash",
     "category": "vegetable",
-    "months": [9, 10, 11],
-    "peakMonths": [10],
+    "months": [
+      "September",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "October"
+    ],
     "description": "Nutty, sweet winter squash with tan skin and bright orange flesh. A prolific midwest fall crop that stores well through winter.",
-    "cookingMethods": ["Squash tempura", "Butternut congee addition", "Korean-style glazed side dish"],
-    "notes": ["High in beta-carotene", "Good source of vitamins C and E", "Rich in potassium"],
-    "origin": "Midwest"
+    "notes": [
+      "High in beta-carotene",
+      "Good source of vitamins C and E",
+      "Rich in potassium"
+    ],
+    "origin": "Grown across the Midwest; Michigan, Ohio, and Illinois lead regional production; roadside stands and pumpkin farms throughout Indiana and Illinois are the primary retail source"
   },
   {
     "id": "sweet-potatoes",
     "name": "Sweet Potatoes",
     "category": "vegetable",
-    "months": [10, 11],
-    "peakMonths": [10],
+    "months": [
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "October"
+    ],
     "description": "Orange-fleshed roots grown throughout the midwest, especially in Illinois. Require a long warm season — slip planting in May, harvest 90–120 days later.",
-    "cookingMethods": ["Satsumaimo (Japanese sweet potato) roasted over stones", "Korean goguma glazed banchan (mattang)", "Japanese imo-yokan (sweet potato candy)", "Glass noodles (made from sweet potato starch)"],
-    "notes": ["Very high in beta-carotene (orange types)", "Rich in vitamins A and C", "Good source of potassium"],
-    "origin": "Illinois / Midwest"
+    "notes": [
+      "Very high in beta-carotene (orange types)",
+      "Rich in vitamins A and C",
+      "Good source of potassium"
+    ],
+    "origin": "Illinois (Fulton, Mason, and Tazewell counties along the Illinois River are a historic sweet potato belt), Indiana, and Missouri; Jewel and Beauregard are the dominant midwest varieties"
   },
   {
     "id": "leeks",
     "name": "Leeks",
     "category": "vegetable",
-    "months": [5, 6, 10, 11],
-    "peakMonths": [5, 10],
+    "months": [
+      "May",
+      "June",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "May",
+      "October"
+    ],
     "description": "Mild, sweet alliums with a long white shaft and dark green tops. More delicate than onions. Grow well in midwest conditions and improve with cool fall weather.",
-    "cookingMethods": ["Japanese nabe (hot pot) base ingredient", "Chinese braised leeks (葱烧)", "Korean leek salad (pa muchim)", "Added to ramen as topping"],
-    "notes": ["Rich in vitamin K", "Good source of folate", "Contains prebiotic fiber"],
-    "origin": "Midwest"
+    "notes": [
+      "Rich in vitamin K",
+      "Good source of folate",
+      "Contains prebiotic fiber"
+    ],
+    "origin": "Specialty produce farms in Wisconsin, Michigan, and Minnesota; European-heritage farm communities in Wisconsin (particularly Belgian and Dutch communities in Kewaunee and Door counties) have a long leek-growing tradition"
   },
   {
     "id": "asian-pears",
     "name": "Asian Pears",
     "category": "fruit",
-    "months": [9, 10, 11],
-    "peakMonths": [9, 10],
+    "months": [
+      "September",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "September",
+      "October"
+    ],
     "description": "Crisp, apple-shaped pears with delicate floral sweetness. Unlike European pears, they are ripe when still firm. Grown in select midwest orchards.",
-    "cookingMethods": ["Bulgogi and galbi marinade (enzymes tenderize meat)", "Hwachae (Korean fruit punch)", "Japanese pear salad with ginger dressing", "Seasonal fruit gift boxes"],
-    "notes": ["High in fiber", "Good source of vitamin C", "Rich in copper"],
-    "origin": "Midwest orchards / Asian markets"
+    "notes": [
+      "High in fiber",
+      "Good source of vitamin C",
+      "Rich in copper"
+    ],
+    "origin": "Specialty orchards in Michigan (Berrien and Van Buren counties) and Ohio; Korean-American farm operations in the Chicago and Columbus metro areas; supplemented by Pacific Northwest imports at Asian markets"
   },
   {
     "id": "european-pears",
     "name": "European Pears",
     "category": "fruit",
-    "months": [8, 9, 10, 11],
-    "peakMonths": [9],
-    "pickingSeason": { "start": 8, "end": 10 },
+    "months": [
+      "August",
+      "September",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "September"
+    ],
+    "pickingSeason": {
+      "start": "August",
+      "end": "October"
+    },
     "description": "Classic European pears ripen off the tree, sweetening as they soften. Bartlett, Bosc, and Anjou varieties are all grown in midwest orchards. U-pick pear farms are less common than apples.",
-    "cookingMethods": ["Pear tarte-tatin inspired wagashi", "Pear fruit parfait", "Compote for Japanese-style breakfast"],
-    "notes": ["High in fiber", "Good source of vitamin C", "Contains copper"],
-    "origin": "Midwest orchards"
+    "notes": [
+      "High in fiber",
+      "Good source of vitamin C",
+      "Contains copper"
+    ],
+    "origin": "Michigan (Berrien and Van Buren counties, within the Lake Michigan fruit belt), Ohio, and Wisconsin; Bartlett is the most common Midwest variety; smaller volumes than apple or cherry production"
   },
   {
     "id": "apple-early",
     "name": "Apples — Early Season",
     "category": "fruit",
-    "months": [7, 8],
-    "peakMonths": [8],
-    "pickingSeason": { "start": 7, "end": 8 },
+    "months": [
+      "July",
+      "August"
+    ],
+    "peakMonths": [
+      "August"
+    ],
+    "pickingSeason": {
+      "start": "July",
+      "end": "August"
+    },
     "description": "The first apples of the season arrive in July and August. Varieties like Paula Red and Zestar are crisp, sweet, and a welcome sign of the upcoming fall harvest.",
-    "cookingMethods": ["Japanese apple salad", "Early apple wagashi", "Fresh fruit parfait layers"],
-    "notes": ["Rich in quercetin", "High in soluble fiber (pectin)", "Good source of vitamin C"],
-    "origin": "Michigan / Midwest"
+    "notes": [
+      "Rich in quercetin",
+      "High in soluble fiber (pectin)",
+      "Good source of vitamin C"
+    ],
+    "origin": "Michigan (the nation's third-largest apple state — Oceana, Kent, and Ionia counties); Wisconsin (Door County); Paula Red is a Michigan-originated variety (Sparta, Kent County)"
   },
   {
     "id": "apple-honeycrisp",
     "name": "Apples — Honeycrisp & Midseason",
     "category": "fruit",
-    "months": [9, 10],
-    "peakMonths": [9],
-    "pickingSeason": { "start": 9, "end": 10 },
+    "months": [
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "September"
+    ],
+    "pickingSeason": {
+      "start": "September",
+      "end": "October"
+    },
     "description": "The peak of apple season. Honeycrisp's legendary crunch and balanced sweetness made it a phenomenon — it was developed at the University of Minnesota and thrives in midwest conditions.",
-    "cookingMethods": ["Korean fruit soda", "Japanese apple salad with mayo", "Apple daikiri-style wagashi"],
-    "notes": ["Rich in quercetin", "High in soluble fiber (pectin)", "Good source of vitamin C"],
-    "origin": "Midwest (developed at U of Minnesota)"
+    "notes": [
+      "Rich in quercetin",
+      "High in soluble fiber (pectin)",
+      "Good source of vitamin C"
+    ],
+    "origin": "Developed at the University of Minnesota Horticultural Research Center (Excelsior, MN) and released in 1991; primary production in Michigan (Oceana, Ionia, Kent counties), Minnesota, and Wisconsin (Door County)"
   },
   {
     "id": "apple-late",
     "name": "Apples — Late Season",
     "category": "fruit",
-    "months": [10, 11],
-    "peakMonths": [10],
-    "pickingSeason": { "start": 10, "end": 11 },
+    "months": [
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "October"
+    ],
+    "pickingSeason": {
+      "start": "October",
+      "end": "November"
+    },
     "description": "The final apple varieties of the season bring deep flavor and excellent storage qualities. Late-season apples like Fuji and Empire can be cellared through winter.",
-    "cookingMethods": ["Apple kimchi (water kimchi)", "Japanese seasonal fruit plate", "Apple and pear combined desserts"],
-    "notes": ["Rich in quercetin", "High in soluble fiber (pectin)", "Good source of vitamin C"],
-    "origin": "Midwest"
+    "notes": [
+      "Rich in quercetin",
+      "High in soluble fiber (pectin)",
+      "Good source of vitamin C"
+    ],
+    "origin": "Michigan (Oceana, Kent, and Ionia counties remain primary); Fuji is of Japanese origin but now widely grown in Michigan; Empire developed at Cornell but flourishes in both Michigan and Wisconsin orchards"
   },
   {
     "id": "grapes",
     "name": "Grapes",
     "category": "fruit",
-    "months": [9, 10],
-    "peakMonths": [9],
-    "pickingSeason": { "start": 9, "end": 10 },
+    "months": [
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "September"
+    ],
+    "pickingSeason": {
+      "start": "September",
+      "end": "October"
+    },
     "description": "Concord, Niagara, and wine grape varieties ripen across midwest vineyards in September. The Concord grape's distinctive 'foxy' aroma is uniquely American.",
-    "cookingMethods": ["Grape wagashi (Kyoho-style)", "Frozen grape dessert", "Seasonal fruit platters"],
-    "notes": ["Rich in resveratrol", "High in antioxidants", "Good source of vitamins C and K"],
-    "origin": "Midwest vineyards"
+    "notes": [
+      "Rich in resveratrol",
+      "High in antioxidants",
+      "Good source of vitamins C and K"
+    ],
+    "origin": "Michigan (Fennville and the Lake Michigan Shore AVA), Ohio (Lake Erie shore — Sandusky to Conneaut), Indiana (Lake Michigan shore, Chesterton area); Concord originated in Concord, Massachusetts but the Great Lakes shore became its heartland"
   },
   {
     "id": "mushrooms",
     "name": "Wild Mushrooms",
     "category": "mushroom",
-    "months": [5, 6, 9, 10, 11],
-    "peakMonths": [10],
+    "months": [
+      "May",
+      "June",
+      "September",
+      "October",
+      "November"
+    ],
+    "peakMonths": [
+      "October"
+    ],
     "description": "The midwest's deciduous forests yield exceptional wild mushroom harvests. Morel hunting is a beloved spring tradition; fall brings maitake, chanterelles, and oyster mushrooms.",
-    "cookingMethods": ["Dashi stock base (kombu-mushroom)", "Ramen topping", "Korean mushroom namul", "Chinese mushroom stir-fry", "Mushroom miso soup"],
-    "notes": ["Natural vitamin D source", "Rich in B vitamins", "Immune-supporting beta-glucans"],
-    "origin": "Midwest forests"
+    "notes": [
+      "Natural vitamin D source",
+      "Rich in B vitamins",
+      "Immune-supporting beta-glucans"
+    ],
+    "origin": "Foraged throughout Midwest deciduous forests — morels peak in May in southern Michigan and Indiana; maitake and hen-of-the-woods from oak forests in southern Wisconsin, Illinois, and Indiana; chanterelles in northern Michigan and Minnesota mixed forests"
   },
   {
     "id": "kale",
     "name": "Kale",
     "category": "vegetable",
-    "months": [9, 10, 11, 12, 1],
-    "peakMonths": [10, 11],
+    "months": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January"
+    ],
+    "peakMonths": [
+      "October",
+      "November"
+    ],
     "description": "Cold-hardy kale is one of the few vegetables available into midwest winter. Frost-sweetened October and November kale is far better than summer kale.",
-    "cookingMethods": ["Kale namul (Korean seasoned greens)", "Kale miso soup", "Kale bibimbap topping", "Kale gyoza filling"],
-    "notes": ["Extremely high in vitamins K and A", "Rich in iron", "High in antioxidants"],
-    "origin": "Midwest"
+    "notes": [
+      "Extremely high in vitamins K and A",
+      "Rich in iron",
+      "High in antioxidants"
+    ],
+    "origin": "Grown across the Midwest at market farms and CSAs; Michigan and Wisconsin lead regional production; hoop-house and tunnel farming extends the season well into December in the upper Midwest"
   },
   {
     "id": "gai-lan",
     "name": "Gai Lan",
     "category": "vegetable",
-    "months": [4, 5, 6, 9, 10],
-    "peakMonths": [5, 10],
+    "months": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "May",
+      "October"
+    ],
     "description": "Chinese broccoli (芥蘭) with glossy leaves and thick stems. A pillar of Cantonese cooking with a pleasantly bitter flavor, deeper than regular broccoli. Widely available at Asian grocery stores.",
-    "cookingMethods": ["Steamed with oyster sauce (classic Cantonese preparation)", "Stir-fried with garlic and ginger", "Blanched as hot pot vegetable", "Lo mein and chow fun addition"],
-    "notes": ["Very high in vitamins C and K", "Rich in calcium", "Contains beta-carotene"],
-    "origin": "Midwest / Asian markets"
+    "notes": [
+      "Very high in vitamins C and K",
+      "Rich in calcium",
+      "Contains beta-carotene"
+    ],
+    "origin": "Specialty Asian produce farms in the Chicago, Detroit, and Columbus metro areas; Cantonese community farms in the Chicago western suburbs and Michigan's Ann Arbor area are primary producers; widely supplemented by California imports at Asian grocers"
   },
   {
     "id": "yu-choy",
     "name": "Yu Choy",
     "category": "vegetable",
-    "months": [4, 5, 6, 9, 10],
-    "peakMonths": [5, 9],
+    "months": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "May",
+      "September"
+    ],
     "description": "Tender Chinese flowering greens (油菜心) with small yellow flowers and smooth stems. One of the most popular vegetables in Cantonese cooking — mild, slightly sweet, with delicate texture.",
-    "cookingMethods": ["Blanched with oyster sauce", "Stir-fried with garlic", "Added to congee and soups", "Classic dim sum side vegetable"],
-    "notes": ["High in vitamins C and K", "Good source of folate", "Rich in calcium"],
-    "origin": "Midwest"
+    "notes": [
+      "High in vitamins C and K",
+      "Good source of folate",
+      "Rich in calcium"
+    ],
+    "origin": "Asian specialty farms in the Chicago, Detroit, and Columbus metro areas; Cantonese community farmers in the Chicago western suburbs; California and Florida imports fill gaps at Asian grocery stores"
   },
   {
     "id": "bitter-melon",
     "name": "Bitter Melon",
     "category": "vegetable",
-    "months": [7, 8, 9],
-    "peakMonths": [8],
+    "months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "August"
+    ],
     "description": "Intensely bitter, distinctively wrinkled green gourd (苦瓜) essential to Chinese, Korean, and Southeast Asian cooking. Grows well in midwest summer heat. An acquired taste with devoted fans.",
-    "cookingMethods": ["Bitter melon stir-fry with black bean sauce (豉汁苦瓜)", "Bitter melon with eggs (苦瓜炒蛋)", "Stuffed bitter melon dim sum", "Bitter melon tea"],
-    "notes": ["Contains charantin (blood sugar regulation)", "Rich in vitamin C", "Anti-inflammatory"],
-    "origin": "Midwest / Asian markets"
+    "notes": [
+      "Contains charantin (blood sugar regulation)",
+      "Rich in vitamin C",
+      "Anti-inflammatory"
+    ],
+    "origin": "Chinese and Southeast Asian specialty farms in the Chicago, Detroit, and Columbus areas; Hmong farmers in the Minneapolis–St. Paul area are major producers; supplemented year-round by Florida and California imports at Asian markets"
   },
   {
     "id": "garlic-chives",
     "name": "Garlic Chives",
     "category": "vegetable",
-    "months": [5, 6, 7, 8, 9, 10],
-    "peakMonths": [6, 7, 8],
+    "months": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "June",
+      "July",
+      "August"
+    ],
     "description": "Flat-leaved Chinese chives (韭菜) with a garlic-onion flavor more assertive than Western chives. A cornerstone of Chinese and Korean cooking. The flower buds in late summer are a seasonal delicacy.",
-    "cookingMethods": ["Chinese dumpling filling (韭菜饺子)", "Garlic chive stir-fry with egg (韭菜炒蛋)", "Korean pajeon and kimchi", "Garlic chive fried rice"],
-    "notes": ["Rich in vitamins A and C", "Contains flavonoids", "Digestive benefits"],
-    "origin": "Midwest"
+    "notes": [
+      "Rich in vitamins A and C",
+      "Contains flavonoids",
+      "Digestive benefits"
+    ],
+    "origin": "Chinese and Korean specialty farms throughout the Midwest; widely grown at community garden plots and small-farm operations serving Asian-American communities in Chicago, Detroit, Columbus, and the Twin Cities"
   },
   {
     "id": "water-spinach",
     "name": "Water Spinach",
     "category": "vegetable",
-    "months": [7, 8, 9],
-    "peakMonths": [7, 8],
+    "months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "July",
+      "August"
+    ],
     "description": "Hollow-stemmed aquatic greens (空心菜) essential to Chinese, Thai, and Filipino cooking. The distinctive hollow stems give a unique tender-crisp texture when stir-fried at high heat.",
-    "cookingMethods": ["Stir-fried with fermented tofu and chili (腐乳炒空心菜)", "Garlic stir-fry (大蒜炒空心菜)", "Thai morning glory stir-fry (pak bung fai daeng)"],
-    "notes": ["Rich in vitamins A and C", "High in iron", "Good source of calcium"],
-    "origin": "Midwest / Asian markets"
+    "notes": [
+      "Rich in vitamins A and C",
+      "High in iron",
+      "Good source of calcium"
+    ],
+    "origin": "Southeast Asian and Chinese specialty farms in the Midwest — Hmong farmers in the Minneapolis–St. Paul and Milwaukee areas are among the primary producers; also Chinese-run farms in the Chicago and Detroit metro areas"
   },
   {
     "id": "chrysanthemum-greens",
     "name": "Chrysanthemum Greens",
     "category": "vegetable",
-    "months": [4, 5, 6, 9, 10],
-    "peakMonths": [5, 10],
+    "months": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "May",
+      "October"
+    ],
     "description": "Fragrant, slightly bitter greens (茼蒿) with a distinctive herby-floral flavor. Related to the ornamental chrysanthemum but bred for culinary use. A classic hot pot and nabe vegetable.",
-    "cookingMethods": ["Hot pot and shabu-shabu classic", "Korean chrysanthemum green namul", "Japanese shungiku sesame salad", "Stir-fried with garlic"],
-    "notes": ["Rich in vitamins A and C", "Contains luteolin (anti-inflammatory)", "High in minerals"],
-    "origin": "Midwest / Asian markets"
+    "notes": [
+      "Rich in vitamins A and C",
+      "Contains luteolin (anti-inflammatory)",
+      "High in minerals"
+    ],
+    "origin": "Japanese and Chinese specialty farms in the Midwest; available at Asian grocery stores throughout the region; commonly grown at Nikkei community garden plots in Chicago (Edgewater) and Detroit (Islandview)"
   },
   {
     "id": "chinese-mustard-greens",
     "name": "Chinese Mustard Greens",
     "category": "vegetable",
-    "months": [4, 5, 6, 9, 10],
-    "peakMonths": [5, 10],
+    "months": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "peakMonths": [
+      "May",
+      "October"
+    ],
     "description": "Pungent, peppery greens (芥菜) with broad leaves and thick stems. A staple of Cantonese and Sichuan cooking. Both fresh and pickled forms are widely important in Chinese cuisine.",
-    "cookingMethods": ["Chinese pickled mustard greens (酸菜)", "Stir-fried with ginger and oyster sauce", "Zha cai (preserved mustard stem)", "Yunnan rice noodle soup topping"],
-    "notes": ["Excellent source of vitamins C and K", "Anti-inflammatory glucosinolates", "High in calcium"],
-    "origin": "Midwest"
+    "notes": [
+      "Excellent source of vitamins C and K",
+      "Anti-inflammatory glucosinolates",
+      "High in calcium"
+    ],
+    "origin": "Cantonese and Sichuan community farms in the Chicago, Detroit, and Columbus metro areas; also grown by Hmong farmers in the Twin Cities; supplemented by California and Florida imports at Chinese and Vietnamese grocery stores"
   },
   {
     "id": "luffa",
     "name": "Luffa",
     "category": "vegetable",
-    "months": [7, 8, 9],
-    "peakMonths": [8],
+    "months": [
+      "July",
+      "August",
+      "September"
+    ],
+    "peakMonths": [
+      "August"
+    ],
     "description": "Tender Asian gourd (丝瓜) with mild, slightly sweet flavor and silky texture. Completely different from the mature dried loofah sponge. A beloved summer vegetable in Chinese cooking.",
-    "cookingMethods": ["Luffa with egg stir-fry (丝瓜炒蛋)", "Luffa vermicelli soup", "Braised luffa with mushrooms", "Stuffed luffa rings"],
-    "notes": ["Low calorie", "Good source of vitamin C", "Contains anti-inflammatory compounds"],
-    "origin": "Midwest"
+    "notes": [
+      "Low calorie",
+      "Good source of vitamin C",
+      "Contains anti-inflammatory compounds"
+    ],
+    "origin": "Chinese specialty farms in the Chicago, Detroit, and Columbus metro areas; grown at community gardens serving Chinese and Vietnamese populations; requires a long warm season so Midwest production is centered in Indiana, Illinois, and southern Ohio"
   }
 ]

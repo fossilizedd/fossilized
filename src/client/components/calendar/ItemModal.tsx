@@ -12,7 +12,7 @@ export function ItemModal() {
 
   if (!selected) return null;
 
-  const { id, name, months, peakMonths, description, cookingMethods, notes, origin } = selected;
+  const { id, name, months, peakMonths, description, notes, origin } = selected;
   const isFish = selected.category === AlmanacCategory.Fish;
   const isNew = isFirstMonth(months, selectedMonth);
   const isPeak = peakMonths.includes(selectedMonth);
@@ -101,18 +101,6 @@ export function ItemModal() {
               <ul className="space-y-0.5">
                 {notes.map((n) => (
                   <li key={n} className="text-xs opacity-70">· {n}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-          {cookingMethods.length > 0 && (
-            <div>
-              <p className="text-[10px] uppercase tracking-wider opacity-40 mb-1">
-                {isFish ? "Preparation" : "Uses"}
-              </p>
-              <ul className="space-y-0.5">
-                {cookingMethods.map((m) => (
-                  <li key={m} className="text-xs opacity-60">· {m}</li>
                 ))}
               </ul>
             </div>

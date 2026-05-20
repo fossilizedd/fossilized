@@ -8,6 +8,9 @@
       "Bash(ls)",
       "Bash(cat *)",
       "Bash(rm src/*)",
+      "Bash(python3 *)",
+      "Read(src/server/data/almanac.json)",
+      "Edit(src/server/data/almanac.json)",
       "WebSearch"
     ]
   }

@@ -32,9 +32,7 @@ export interface AlmanacItem {
   months: Month[];
   peakMonths: Month[];
   description: string;
-  cookingMethods: string[];
   notes: string[];
   origin: string;
-  iceFishing?: boolean;
   pickingSeason?: PickingSeason;
 }

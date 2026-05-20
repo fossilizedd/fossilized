@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useAtom, useSetAtom } from "jotai";
 import { selectedItemAtom, hiddenIdsAtom } from "@/client/atoms/appAtoms";
 import { ItemModal } from "./calendar/ItemModal";
-import { PRODUCE_EMOJI, getSeasonRange } from "@/client/utils/season";
+import { PRODUCE_EMOJI, getSeasonRange, sortItems } from "@/client/utils/season";
 import { AlmanacCategory, type AlmanacItem } from "@/server/lib/almanac";
 import { selectedMonthAtom } from "@/client/atoms/appAtoms";
 
@@ -46,8 +46,8 @@ function FeedCard({ item, tags }: { item: AlmanacItem; tags: string[] }) {
             </span>
           ))}
         </div>
-        <p className="text-[11px] text-amber/80 tracking-wide mb-1.5">{getSeasonRange(item.months)}</p>
-        <p className="text-xs text-mist/50 leading-relaxed line-clamp-2">{item.description}</p>
+        <p className={`text-[11px] font-semibold tracking-wide mb-1.5 ${isFish ? "text-ocean" : "text-amber"}`}>{getSeasonRange(item.months)}</p>
+        <p className="text-xs text-mist/60 leading-relaxed line-clamp-2">{item.description}</p>
       </div>
     </div>
   );
@@ -80,7 +80,10 @@ export function FeedView({ items, currentMonth }: { items: AlmanacItem[]; curren
     (i) => i.months.includes(currentMonth) && !hiddenIds.includes(i.id)
   );
   const peak = inSeason.filter((i) => i.peakMonths.includes(currentMonth));
-  const other = inSeason.filter((i) => !i.peakMonths.includes(currentMonth));
+  const other = sortItems(
+    inSeason.filter((i) => !i.peakMonths.includes(currentMonth)),
+    currentMonth
+  );
   const comingSoon = items.filter(
     (i) => i.months[0] === nextMonth && !hiddenIds.includes(i.id)
   );

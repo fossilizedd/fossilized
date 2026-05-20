@@ -68,16 +68,18 @@ export function isFirstMonth(months: number[], month: number): boolean {
   return months[0] === month;
 }
 
-export function sortItems<T extends { months: number[] }>(items: T[], month: number): T[] {
-  return [...items].sort((a, b) => {
-    const aFirst = isFirstMonth(a.months, month) ? 0 : 1;
-    const bFirst = isFirstMonth(b.months, month) ? 0 : 1;
-    return aFirst - bFirst;
-  });
+export function sortItems<T extends { months: number[]; peakMonths: number[] }>(items: T[], month: number): T[] {
+  const priority = (item: T): number => {
+    if (item.peakMonths.includes(month)) return 0;
+    if (isFirstMonth(item.months, month)) return 1;
+    return 2;
+  };
+  return [...items].sort((a, b) => priority(a) - priority(b));
 }
 
 export function getSeasonRange(months: number[]): string {
   if (months.length === 0) return "";
+  if (months.length === 12) return "Year-Round";
   const first = MONTHS[months[0] - 1];
   const last = MONTHS[months[months.length - 1] - 1];
   return first === last ? first : `${first} – ${last}`;
