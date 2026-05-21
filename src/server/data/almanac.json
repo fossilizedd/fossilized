@@ -428,6 +428,7 @@
     "name": "Bok Choy",
     "category": "vegetable",
     "months": [
+      "April",
       "May",
       "June",
       "September",
@@ -438,21 +439,24 @@
       "May",
       "October"
     ],
-    "description": "Tender Chinese cabbage that thrives in cool midwest springs and falls. Baby bok choy is especially prized for sweetness and tenderness.",
+    "description": "Tender Chinese cabbage with crisp white stems and mild, slightly sweet flavor—essential to Cantonese and Southeast Asian stir-fries. Baby bok choy (halved lengthwise) and medium bok choy (quartered) cook quickly at high heat in a wok with garlic and oyster sauce in 3–5 minutes; larger varieties require stems and leaves separated, cooked stem-first then leaves added near the end. Fresh local bok choy from Chicago-area Asian farms stays crisp 4–5 days refrigerated, superior in texture and flavor to year-round commodity imports.",
     "notes": [
-      "Rich in vitamins A and C",
-      "Good source of calcium",
-      "Anti-inflammatory"
+      "High-heat wok cooking (2–3 minutes for baby bok choy halved, 1–2 minutes for leaves alone) preserves tender-crisp texture; blanch then pan-sear for a restaurant-style seared edge.",
+      "Urban Growers Collective (Chicago CSA) and Chicago Botanic Garden offer bok choy through seasonal produce boxes and weekly CSA pickups.",
+      "Peak season May–June (spring crop) and September–October (fall crop); bok choy dislikes heat above 70°F so summer availability is limited and may come from imports."
     ],
-    "origin": "Specialty Asian vegetable farms in the Chicago (Hmong and Chinese community farmers in the western suburbs), Detroit, Minneapolis, and Columbus metro areas; broadly available through Asian wholesale distributors"
+    "origin": "Hinata Farms and Asian specialty farms serving Chicago's Edgewater, Rogers Park, and western suburban Chinese and Korean communities; available year-round at Asian grocery markets and through CSA programs including Urban Growers Collective and Chicago Botanic Garden."
   },
   {
     "id": "kohlrabi",
     "name": "Kohlrabi",
     "category": "vegetable",
     "months": [
+      "April",
       "May",
       "June",
+      "July",
+      "August",
       "September",
       "October"
     ],
@@ -460,13 +464,14 @@
       "May",
       "September"
     ],
-    "description": "A crisp, mild-flavored bulb that tastes like a cross between broccoli stem and apple. One of the most underutilized midwest vegetables. Both the bulb and the leaves are edible.",
+    "description": "Mild-flavored bulb with a texture between broccoli stem and apple—best raw in slaws and sliced thin on a mandoline, roasted at 400°F until caramelized (25 min), or sautéed whole and peeled. The tender young greens are fully edible, treated like other crucifer greens. Fresh local kohlrabi from Chicago CSA suppliers is crisper and more delicate than supermarket imports, with superior flavor in spring and fall harvests when cool weather prevents bolting.",
     "notes": [
-      "High in vitamin C",
-      "Good source of potassium and fiber",
-      "Very low calorie"
+      "Remove the tough outer skin with a vegetable peeler before cooking or eating raw.",
+      "Roast at 400°F with olive oil and salt 20–25 minutes until tender and caramelized; the interior sweetens dramatically with heat.",
+      "Nichols Farm & Orchard (Marengo, IL) includes kohlrabi in seasonal CSA shares with weekly pickups at 40+ Chicago neighborhoods; Spence Farm (Fairbury, IL) supplies restaurants and specialty vendors.",
+      "A cold-season crop: spring kohlrabi (April–May) bolts above 70°F; fall crop (August–September planting) succeeds because cooling weather prevents premature bolting."
     ],
-    "origin": "Traditional German-heritage farm country of Wisconsin and Minnesota; CSA farms throughout the upper Midwest; particularly common in the Milwaukee and Twin Cities markets"
+    "origin": "Nichols Farm & Orchard (Marengo, IL) supplies kohlrabi through Chicago CSA pickups and Green City Market; Spence Farm (Fairbury, IL) grows kohlrabi and distributes from Central Illinois farms to Chicago restaurants and specialty vendors."
   },
   {
     "id": "strawberries",
@@ -687,13 +692,13 @@
       "July",
       "August"
     ],
-    "description": "Prolific summer squash available in abundance through late summer. Young tender squash is best; overgrown ones become watery and seedy.",
+    "description": "Tender young zucchini excel when cooked quickly at high heat—grilling, roasting at 400–450°F, or brief sautéing—to prevent waterlogging. Remove the soft seed core before cooking by halving lengthwise, then cut into spears or rounds. Fresh local zucchini from Chicago CSA suppliers arrives weeks fresher than commodity supermarket imports, with superior delicate flavor and firm texture.",
     "notes": [
-      "Low calorie",
-      "Good source of vitamin C",
-      "High in potassium"
+      "Roast at high heat (400–450°F) with ample space between pieces; avoid salting before cooking as it draws moisture and causes mushiness.",
+      "Grill or sauté zucchini spears quickly (3–5 minutes) with olive oil at high heat to caramelize edges and concentrate flavor.",
+      "Nichols Farm & Orchard (Marengo, IL) offers zucchini through weekly Chicago CSA pickups at 40+ locations including Lincoln Park, West Loop, South Loop, Logan Square, and other neighborhoods June–September."
     ],
-    "origin": "Ubiquitous at farms throughout the Midwest; grown commercially in Michigan and Illinois; a fixture at every Midwest farmers market from June through September"
+    "origin": "Nichols Farm & Orchard (Marengo, IL) supplies fresh zucchini through Chicago CSA pickups at 40+ neighborhood locations including Lincoln Park, West Loop, South Loop, and Logan Square; available June through September."
   },
   {
     "id": "thai-basil",
@@ -709,13 +714,13 @@
       "July",
       "August"
     ],
-    "description": "Aromatic herb with anise-clove flavor essential to Southeast Asian and Taiwanese cooking. Thrives in midwest summer heat. Distinctly different flavor from Italian sweet basil.",
+    "description": "Aromatic Southeast Asian herb with distinctive anise-clove flavor essential to Thai, Lao, Cambodian, and Vietnamese cooking. Use fresh in stir-fries (pad krapow gai), fried rice, and curries — add at the end of cooking to preserve volatile aromatics and bright green color. The sturdy leaves withstand high heat better than Italian basil. Fresh local Thai basil from Chicago-area farms is noticeably more aromatic and tender than dried imports or year-round supermarket specimens.",
     "notes": [
-      "Contains eugenol (anti-inflammatory)",
-      "Good source of vitamin A",
-      "Rich in antioxidants"
+      "Add Thai basil in the final 30 seconds of high-heat stir-frying; turn off heat and stir until just wilted to retain color and anise flavor.",
+      "Hinata Farms (Chicago, Edgewater/Rogers Park) specializes in Asian heritage herbs and supplies local restaurants; contact rachel@hinatafarms.com or 773.236.7791.",
+      "Thai basil is a warm-season crop requiring full sun; peak supply in Chicago is July–August when summer heat maximizes leaf flavor and plant vigor."
     ],
-    "origin": "Specialty Asian herb farms in the Midwest — Hmong and Southeast Asian farmers in the Minneapolis–St. Paul and Milwaukee areas are major producers; also Chicago suburban farms"
+    "origin": "Hinata Farms (Chicago, Edgewater/Rogers Park neighborhood) grows Asian herbs including Thai basil and supplies local restaurants and community members; contact rachel@hinatafarms.com or 773.236.7791."
   },
   {
     "id": "cucumbers",
@@ -730,13 +735,13 @@
       "July",
       "August"
     ],
-    "description": "Cool and crisp, cucumbers peak in midsummer. Japanese and Korean thin-skin varieties grow well in midwest gardens and are especially prized for pickling and fresh eating.",
+    "description": "Cool, crisp summer vegetable with thin, tender skins ideal for pickling and fresh eating. Japanese and Korean thin-skin varieties excel in quick pickles, oi muchim (Korean cucumber salad), and Japanese namasu. Slice thinly for Japanese preparations or halve lengthwise for pickling; high-heat pickling vinegar (5% acidity) yields the crispest texture. Fresh local cucumbers from Chicago CSA suppliers stay crisp 5–7 days refrigerated, far superior in flavor and texture to commodity supermarket imports.",
     "notes": [
-      "High water content (hydrating)",
-      "Low calorie",
-      "Good source of vitamin K"
+      "Japanese thin-skin cucumbers (virtually seedless, mild flavor) are ideal for quick pickles and fresh preparations; Korean varieties are equally suited for fermented oiji and spicy oi muchim.",
+      "Hinata Farms (Chicago, Edgewater/Rogers Park) specializes in Japanese heritage vegetables including thin-skin cucumber varieties; contact rachel@hinatafarms.com or 773.236.7791.",
+      "Peak season July–August in Chicago; Nichols Farm & Orchard (Marengo, IL) offers cucumbers through weekly CSA pickups at 40+ Chicago locations June–September."
     ],
-    "origin": "Michigan is the nation's top pickling cucumber state (Saginaw Valley leads); slicing and Asian varieties from Ohio and Indiana; Japanese and Korean varieties from specialty farms in metro areas"
+    "origin": "Hinata Farms (Chicago, Edgewater/Rogers Park) grows Japanese thin-skin cucumber varieties and supplies local restaurants; also available through Nichols Farm & Orchard (Marengo, IL) CSA pickups and Chicago farmers markets."
   },
   {
     "id": "cherry-tomatoes",
@@ -751,13 +756,13 @@
     "peakMonths": [
       "August"
     ],
-    "description": "Small, intensely sweet tomatoes that ripen weeks before large-fruited types. Cherry tomatoes stay productive all summer and into fall, making them the most reliable fresh tomato.",
+    "description": "Small, intensely sweet tomatoes prized for roasting at high heat (400–425°F for 18–30 minutes) until skins blister and interiors turn jammy, concentrating natural sugars into a quick sauce for pasta. Raw in salads, or halved and blistered in a dry pan with garlic and oil. Fresh local cherry tomatoes from Chicago CSA suppliers arrive weeks fresher than commodity supermarket imports, with superior sweetness and firm skin texture.",
     "notes": [
-      "Rich in lycopene",
-      "Very high in vitamin C relative to size",
-      "Contains potassium"
+      "Roast halved cherry tomatoes at 400–425°F for 18–30 minutes with olive oil, garlic, and herbs to concentrate flavor and create a ready-made sauce.",
+      "Nichols Farm & Orchard (Marengo, IL) offers cherry tomatoes through weekly Chicago CSA pickups at 40+ locations July–October.",
+      "Cherry tomatoes ripen 2–3 weeks before large-fruited heirloom and paste varieties, making them the most reliable fresh tomato for continuous summer harvest through early fall."
     ],
-    "origin": "Grown at market farms throughout the Midwest; Ohio and Michigan are leading fresh tomato states; available at virtually every Midwest farmers market"
+    "origin": "Nichols Farm & Orchard (Marengo, IL) supplies fresh cherry tomatoes through Chicago CSA pickups at 40+ neighborhood locations including Lincoln Park, West Loop, South Loop, and Logan Square; also available at farmers markets throughout the region."
   },
   {
     "id": "heirloom-tomatoes",
@@ -771,13 +776,14 @@
     "peakMonths": [
       "August"
     ],
-    "description": "Open-pollinated varieties with extraordinary flavor complexity. Heirlooms trade yield and disease resistance for taste — colors range from deep purple to striped green to bright yellow.",
+    "description": "Open-pollinated varieties with complex, deep flavor—colors range from deep purple (Cherokee Purple) to striped green to bright yellow (Brandywine). Best served raw and sliced thick (½ to ¾ inch) in salads with minimal dressing (olive oil, vinegar, salt, fresh basil); the natural juices concentrate flavor when tomatoes rest for 15–20 minutes. Heirloom tomatoes from Chicago-area CSAs and local farmers arrive weeks fresher than commodity imports, with superior acidity balance and aromatic volatiles that deteriorate rapidly after harvest.",
     "notes": [
-      "Rich in lycopene",
-      "Good source of vitamins C and K",
-      "Contains potassium"
+      "Slice with a serrated knife to avoid crushing; allow 15–20 minutes of resting time for juices to concentrate and natural sugars to develop.",
+      "Serve at room temperature with sea salt, olive oil, and acid (vinegar or lemon juice); fresh basil, onion, and herbs complete the dish.",
+      "Nichols Farm & Orchard offers heirloom tomatoes through CSA pickups and Green City Market (Lincoln Park winter location, Saturdays 8 am–1 pm).",
+      "Peak season late July through September; August is prime availability at Chicago farmers markets."
     ],
-    "origin": "Specialty market farms throughout Ohio, Michigan, and Indiana; Brandywine (Pennsylvania Dutch origin) and Cherokee Purple are dominant varieties; largely sold direct at farmers markets"
+    "origin": "Nichols Farm & Orchard (Marengo, IL) supplies heirloom tomatoes through Chicago CSA pickups at 40+ neighborhood locations including Lincoln Park, West Loop, South Loop, and Logan Square; Jon Templin of Butternut Sustainable Farms (Sturgis, MI) grows 30+ heirloom varieties and supplies top Chicago restaurants; Chicago Tomato Man (Bob Zeni, LaGrange Park) offers 120+ heirloom seedling varieties through pop-up sales throughout Chicago."
   },
   {
     "id": "roma-tomatoes",
@@ -791,13 +797,13 @@
     "peakMonths": [
       "September"
     ],
-    "description": "Thick-walled, low-moisture paste tomatoes ideal for sauce, canning, and sundrying. More forgiving than heirlooms — resist cracking after rain and produce a heavy crop.",
+    "description": "Thick-walled, low-moisture paste tomatoes ideal for sauce, canning, and paste-making. Their meaty flesh, few seeds, and dense interior concentrate flavor under low-heat simmering (2–3 hours) or high-heat roasting (30–40 minutes at 375°F) to develop jammy sweetness and umami depth. Fresh Chicago-area roma tomatoes from local CSAs arrive weeks fresher and firmer than commodity supermarket imports, making them superior for both fresh preparations and preservation.",
     "notes": [
-      "Very high in lycopene",
-      "Lower water content concentrates nutrients",
-      "Good source of vitamins C and K"
+      "Simmer slowly (2–3 hours) with olive oil and herbs to concentrate flavor and create thick, rich sauce; high-heat roasting develops caramelized, concentrated sweetness.",
+      "Nichols Farm & Orchard (Marengo, IL) supplies fresh roma tomatoes through Chicago CSA pickups at 40+ neighborhood locations including Lincoln Park, West Loop, South Loop, and Logan Square from August through October.",
+      "Peak availability September at Chicago farmers markets and CSA pickups; August and October supplies are variable and depend on summer heat and early fall weather."
     ],
-    "origin": "Ohio (leading processing tomato state east of the Mississippi), Indiana, and Michigan; Ohio's Sandusky and Erie County region has historic cannery roots dating to the 1860s"
+    "origin": "Nichols Farm & Orchard (Marengo, IL) supplies fresh roma tomatoes through Chicago CSA pickups at 40+ neighborhood locations including Lincoln Park, West Loop, South Loop, and Logan Square; Spence Farm (Fairbury, IL) distributes from Central Illinois farms to Chicago restaurants and specialty vendors."
   },
   {
     "id": "eggplant",
@@ -811,13 +817,13 @@
     "peakMonths": [
       "August"
     ],
-    "description": "Slim Japanese and Chinese varieties (lavender-purple, finger-length) thrive in midwest summer heat. Sweeter and less bitter than large globe eggplant.",
+    "description": "Japanese and Chinese eggplant varieties thrive in midwest summer heat — slender, thin-skinned, sweeter and less bitter than globe eggplant. Japanese eggplant excels grilled, sautéed, or pan-fried briefly (4–6 minutes) until skin blisters and flesh turns silky and melt-in-mouth; Chinese eggplant suits longer stir-fries, braises, and stews where the tender skin adds flavor and visual appeal. Unlike globe eggplant, Asian varieties rarely require salting. Fresh local eggplant from Chicago-area farms is firmer and more flavorful than commodity supermarket imports.",
     "notes": [
-      "Rich in nasunin (brain antioxidant)",
-      "Good source of fiber",
-      "Contains potassium"
+      "Japanese eggplant (finger-length, deep purple) cooks rapidly at high heat with minimal pre-treatment; do not salt before cooking as Asian varieties lack the bitterness of globe types.",
+      "Hinata Farms (Chicago, Edgewater/Rogers Park) grows Japanese eggplant and supplies local restaurants; contact rachel@hinatafarms.com or 773.236.7791.",
+      "Peak supply July–September in Chicago; early July and late September availability is limited and variable depending on summer heat and early fall temperatures."
     ],
-    "origin": "Asian variety eggplant from specialty farms serving Chinese, Korean, and Japanese communities in the Chicago, Detroit, and Columbus metro areas; globe eggplant from Michigan and Indiana"
+    "origin": "Hinata Farms (Chicago, Edgewater/Rogers Park neighborhood) grows Japanese eggplant varieties and supplies local restaurants; also available through Nichols Farm & Orchard (Marengo, IL) CSA pickups and Chicago farmers markets."
   },
   {
     "id": "sweet-corn",
@@ -831,13 +837,14 @@
     "peakMonths": [
       "August"
     ],
-    "description": "The quintessential midwest crop. Roadside stands selling just-picked corn are a summer institution. Local just-picked ears are incomparably sweet.",
+    "description": "Peak-season sweet corn harvested within hours of use is incomparably sweeter and more tender than commodity supermarket imports. Boil 3–7 minutes depending on ear size (never salt the water), grill 10–15 minutes with husks on for smoky char, or steam 4–6 minutes to preserve nutrients. Also excellent in soups, chowders, fritters, and creamed corn. Fresh local corn from Chicago CSA suppliers arrives weeks fresher than off-season imports, with superior natural sweetness and tender kernel texture.",
     "notes": [
-      "Good source of B vitamins",
-      "High in fiber",
-      "Contains lutein and zeaxanthin for eye health"
+      "Boil or steam just 3–7 minutes to retain sweetness and tender texture; overcooking causes starch conversion and mushy kernels.",
+      "Grill with husks intact 10–15 minutes, turning occasionally, for caramelized char and smoky flavor while kernels remain tender inside.",
+      "Nichols Farm & Orchard (Marengo, IL) offers fresh sweet corn through weekly Chicago CSA pickups at 40+ locations July–September; peak availability in August.",
+      "Corn sweetness peaks at harvest and deteriorates within hours—select ears with moist green husks and kernels that puncture easily to release milky liquid."
     ],
-    "origin": "Illinois and Indiana (the heart of the Corn Belt) lead sweet corn production; Iowa, Ohio, and Michigan also significant; nearly every county has local sweet corn at roadside stands"
+    "origin": "Nichols Farm & Orchard (Marengo, IL) supplies fresh sweet corn through Chicago CSA pickups at 40+ neighborhood locations including Lincoln Park, West Loop, South Loop, and Logan Square; also available at Chicago farmers markets including Green City Market and Daley Plaza."
   },
   {
     "id": "green-beans",
@@ -852,13 +859,14 @@
       "July",
       "August"
     ],
-    "description": "Crisp, snappy beans available throughout summer. Long (yard-long) beans also grow well in midwest gardens and are preferred for Asian preparations.",
+    "description": "Tender snap beans excel blanched 2–3 minutes then shocked in ice water to retain crispness, sautéed briefly in butter or olive oil, or stir-fried at high heat. Yard-long beans (18–24 inches, preferred for Asian cooking) wok-fry with oyster sauce and ginger in 5–8 minutes. Fresh local green beans from Chicago CSA suppliers arrive weeks fresher and crisper than commodity supermarket imports, retaining delicate flavor and vibrant color.",
     "notes": [
-      "Good source of vitamins C and K",
-      "Rich in folate",
-      "High in fiber"
+      "Blanch 2–3 minutes at rolling boil, then shock in ice water to halt cooking and set bright green color; drain well before finishing preparations.",
+      "Nichols Farm & Orchard (Marengo, IL) includes green beans in weekly CSA pickups at 40+ Chicago locations including Lincoln Park, West Loop, South Loop, and Logan Square.",
+      "Yard-long beans (chewy, sturdy texture suited to intense spices) require 5–8 minutes high-heat stir-frying; standard snap beans cook faster (3–5 minutes sautéed or steamed).",
+      "Peak supply July–August in Chicago; early July and September availability is variable depending on planting schedules and early fall weather."
     ],
-    "origin": "Wisconsin (leading fresh and processing bean state), Michigan, and Ohio; yard-long beans from specialty Asian farms throughout the Midwest; widely available at CSA farms"
+    "origin": "Nichols Farm & Orchard (Marengo, IL) supplies green beans through Chicago CSA pickups at 40+ neighborhood locations; yard-long beans (preferred for Asian stir-fries) from specialty Asian farms in the Chicago area."
   },
   {
     "id": "garlic",

@@ -21,17 +21,17 @@ function toMonth(name: MonthName): Month {
   return Month[name];
 }
 
-const items: AlmanacItem[] = (almanacData as unknown as RawAlmanacItem[]).map((raw) => ({
-  ...raw,
-  months: raw.months.map(toMonth),
-  peakMonths: raw.peakMonths.map(toMonth),
-  ...(raw.pickingSeason && {
-    pickingSeason: {
-      start: toMonth(raw.pickingSeason.start),
-      end: toMonth(raw.pickingSeason.end),
-    },
-  }),
-}));
+const items: AlmanacItem[] = (almanacData as unknown as RawAlmanacItem[]).map((raw) => {
+  const { pickingSeason: rawPS, ...rest } = raw;
+  return {
+    ...rest,
+    months: rest.months.map(toMonth),
+    peakMonths: rest.peakMonths.map(toMonth),
+    ...(rawPS
+      ? { pickingSeason: { start: toMonth(rawPS.start), end: toMonth(rawPS.end) } }
+      : {}),
+  };
+});
 
 export function getAllItems(): AlmanacItem[] {
   return items;
