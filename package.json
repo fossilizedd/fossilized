@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "serve out",
     "lint": "next lint",
     "type-check": "tsc --noEmit"
   },
@@ -20,6 +20,7 @@
     "@types/node": "^22.15.18",
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.2",
+    "serve": "^14.2.6",
     "tailwindcss": "^4.1.6",
     "typescript": "^5.8.3"
   }
