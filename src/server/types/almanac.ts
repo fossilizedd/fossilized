@@ -32,7 +32,5 @@ export interface AlmanacItem {
   months: Month[];
   peakMonths: Month[];
   description: string;
-  notes: string[];
-  origin: string;
   pickingSeason?: PickingSeason;
 }

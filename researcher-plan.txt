@@ -1,0 +1,70 @@
+## Almanac Researcher Agent — Refined Plan
+
+### Goal
+A research agent that populates or improves almanac entries for any food item
+(vegetables, fruit, fish, mushrooms) with Chicago/Illinois seasonal data.
+
+---
+
+### Inputs
+- A food item name or existing almanac ID.
+- Agent reads `src/server/data/almanac.json` first to check whether the item exists.
+
+---
+
+### Two modes
+
+**Create** — item not in almanac:
+Produce a full new entry object.
+
+**Update** — item already in almanac:
+Read the existing entry. Return only the fields that need changing; set unchanged
+fields to `null`. Do not rewrite for style.
+
+---
+
+### Output schema
+
+```json
+{
+  "id": "<kebab-case-id>",
+  "name": "<Display Name>",
+  "months": ["<MonthName>"],
+  "peakMonths": ["<MonthName>"],
+  "description": "<string>"
+}
+```
+
+Full month names only (`January`–`December`). No abbreviations.
+
+`peakMonths` = window of best quality, not just earliest availability.
+
+---
+
+### description field
+4 sentences, one per slot:
+1. Flavor, texture, and aroma at peak season.
+2. Why locally sourced tastes different — adapt by category:
+   - Vegetables / fruit: climate, soil, or growing conditions (e.g. frost sweetening, lake-effect humidity, heavy clay soil).
+   - Fish: lake or river conditions, water temperature, seasonal migration or spawning cycles.
+   - Mushrooms: foraging habitat, moisture and temperature patterns, forest type.
+3. How flavor shifts across the season — what the item is like before peak, at peak, and after (e.g. starchier early, sweetest at frost, bitter late).
+4. What a quality specimen looks like and how to choose one.
+
+Factual and direct. No metaphor or marketing language. 100–120 words. If a slot cannot be filled with verified data, omit that sentence rather than speculating.
+
+---
+
+### Search budget
+- Run WebSearch before WebFetch. If the snippet answers the question, stop.
+- Max 6 WebSearch calls and 2 WebFetch calls per item.
+- Preferred sources: Illinois Extension, USDA, Great Lakes fishery reports,
+  regional foraging guides.
+- Do not invent data. If uncertain, omit the claim.
+
+---
+
+### What to avoid
+- Sourcing / where to buy (farmers markets, stores, CSAs) — out of scope.
+- `notes` and `origin` fields — not used in this schema.
+- Rewriting values that are already accurate.
