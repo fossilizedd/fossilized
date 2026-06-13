@@ -1,0 +1,474 @@
+[
+  {
+    "id": "beef-chow-fun",
+    "name": "Beef Chow Fun",
+    "cuisine": "chinese",
+    "role": "main",
+    "techniques": ["stir-fry"],
+    "links": []
+  },
+  {
+    "id": "egg-foo-young",
+    "name": "Egg Foo Young",
+    "cuisine": "chinese",
+    "role": "main",
+    "techniques": ["fry"],
+    "links": []
+  },
+  {
+    "id": "smothered-oxtails",
+    "name": "Smothered Oxtails",
+    "cuisine": "american",
+    "role": "main",
+    "techniques": ["braise"],
+    "links": []
+  },
+  {
+    "id": "oden",
+    "name": "Oden",
+    "cuisine": "japanese",
+    "role": "main",
+    "techniques": ["simmer"],
+    "links": []
+  },
+  {
+    "id": "sukiyaki",
+    "name": "Sukiyaki",
+    "cuisine": "japanese",
+    "role": "main",
+    "techniques": ["simmer", "saute"],
+    "links": []
+  },
+  {
+    "id": "steamed-fish",
+    "name": "Steamed Fish",
+    "cuisine": "chinese",
+    "role": "main",
+    "techniques": ["steam"],
+    "links": []
+  },
+  {
+    "id": "patty-melt",
+    "name": "Patty Melt",
+    "cuisine": "american",
+    "role": "main",
+    "techniques": ["saute"],
+    "links": []
+  },
+  {
+    "id": "burgers",
+    "name": "Burgers",
+    "cuisine": "american",
+    "role": "main",
+    "techniques": ["grill"],
+    "links": []
+  },
+  {
+    "id": "bread-stuffing",
+    "name": "Bread Stuffing",
+    "cuisine": "american",
+    "role": "side",
+    "techniques": ["bake", "saute"],
+    "links": []
+  },
+  {
+    "id": "mexican-red-rice",
+    "name": "Mexican Red Rice",
+    "cuisine": "mexican",
+    "role": "side",
+    "techniques": ["saute", "simmer"],
+    "links": []
+  },
+  {
+    "id": "guacamole",
+    "name": "Guacamole",
+    "cuisine": "mexican",
+    "role": "side",
+    "techniques": ["raw"],
+    "links": []
+  },
+  {
+    "id": "dutch-baby-yorkshire-pudding",
+    "name": "Dutch Baby / Yorkshire Pudding",
+    "cuisine": "american",
+    "role": "side",
+    "techniques": ["bake"],
+    "links": []
+  },
+  {
+    "id": "gravlax",
+    "name": "Gravlax",
+    "cuisine": "other",
+    "role": "side",
+    "techniques": ["ferment", "raw"],
+    "links": [],
+    "notes": "Scandinavian salt-cured salmon"
+  },
+  {
+    "id": "wedge-salad",
+    "name": "Wedge Salad",
+    "cuisine": "american",
+    "role": "side",
+    "techniques": ["raw"],
+    "links": []
+  },
+  {
+    "id": "jambon-beurre-fromage",
+    "name": "Jambon Beurre Fromage",
+    "cuisine": "french",
+    "role": "main",
+    "techniques": ["raw"],
+    "links": []
+  },
+  {
+    "id": "dirty-rice",
+    "name": "Dirty Rice",
+    "cuisine": "american",
+    "role": "side",
+    "techniques": ["saute", "simmer"],
+    "links": [],
+    "notes": "Cajun dirty rice"
+  },
+  {
+    "id": "sausage-boil-and-pan-fry",
+    "name": "Sausage Boil and Pan Fry",
+    "cuisine": "american",
+    "role": "both",
+    "techniques": ["boil", "fry"],
+    "links": []
+  },
+  {
+    "id": "tamago-gohan",
+    "name": "Tamago Gohan",
+    "cuisine": "japanese",
+    "role": "main",
+    "techniques": ["raw"],
+    "links": []
+  },
+  {
+    "id": "sausage-gravy",
+    "name": "Sausage Gravy",
+    "cuisine": "american",
+    "role": "both",
+    "techniques": ["saute", "simmer"],
+    "links": []
+  },
+  {
+    "id": "pork-stir-fry",
+    "name": "Pork Stir Fry",
+    "cuisine": "chinese",
+    "role": "main",
+    "techniques": ["stir-fry"],
+    "links": []
+  },
+  {
+    "id": "chinese-pork-patty",
+    "name": "Chinese Pork Patty",
+    "cuisine": "chinese",
+    "role": "main",
+    "techniques": ["steam"],
+    "links": []
+  },
+  {
+    "id": "chinese-shrimp-paste-vegetables",
+    "name": "Chinese Shrimp Paste Sauce Vegetables",
+    "cuisine": "chinese",
+    "role": "side",
+    "techniques": ["saute", "stir-fry"],
+    "links": []
+  },
+  {
+    "id": "pot-stickers",
+    "name": "Pot Stickers",
+    "cuisine": "chinese",
+    "role": "both",
+    "techniques": ["fry", "steam"],
+    "links": []
+  },
+  {
+    "id": "sauteed-green-beans",
+    "name": "Sautéed Green Beans",
+    "cuisine": "american",
+    "role": "side",
+    "techniques": ["saute"],
+    "links": []
+  },
+  {
+    "id": "chicken-corn-soup",
+    "name": "Chicken Corn Soup",
+    "cuisine": "chinese",
+    "role": "side",
+    "techniques": ["simmer", "boil"],
+    "links": []
+  },
+  {
+    "id": "beef-tomato-egg",
+    "name": "Beef Tomato Egg",
+    "cuisine": "chinese",
+    "role": "main",
+    "techniques": ["stir-fry"],
+    "links": []
+  },
+  {
+    "id": "loco-moco",
+    "name": "Loco Moco",
+    "cuisine": "other",
+    "role": "main",
+    "techniques": ["fry", "saute"],
+    "links": [],
+    "notes": "Hawaiian plate lunch: rice, burger patty, fried egg, brown gravy"
+  },
+  {
+    "id": "poke-tuna-kahuna",
+    "name": "Poke (Tuna Kahuna Style)",
+    "cuisine": "other",
+    "role": "main",
+    "techniques": ["raw"],
+    "links": []
+  },
+  {
+    "id": "salmon-croquette",
+    "name": "Salmon Croquette",
+    "cuisine": "japanese",
+    "role": "side",
+    "techniques": ["fry"],
+    "links": [],
+    "notes": "Inspired by Sumi Robata"
+  },
+  {
+    "id": "korean-street-toast",
+    "name": "Korean Street Toast",
+    "cuisine": "korean",
+    "role": "main",
+    "techniques": ["fry", "saute"],
+    "links": []
+  },
+  {
+    "id": "etouffee",
+    "name": "Étouffée",
+    "cuisine": "american",
+    "role": "main",
+    "techniques": ["saute", "simmer"],
+    "links": [],
+    "notes": "Cajun crawfish or shrimp étouffée"
+  },
+  {
+    "id": "gumbo",
+    "name": "Gumbo",
+    "cuisine": "american",
+    "role": "main",
+    "techniques": ["saute", "simmer"],
+    "links": [],
+    "notes": "Cajun/Creole gumbo"
+  },
+  {
+    "id": "jing-jiang-rou-si",
+    "name": "Jing Jiang Rou Si",
+    "cuisine": "chinese",
+    "role": "main",
+    "techniques": ["stir-fry"],
+    "links": [],
+    "notes": "Peking-style pork shreds with sweet bean paste"
+  },
+  {
+    "id": "chinese-steamed-beef-patty",
+    "name": "Chinese Steamed Beef Patty",
+    "cuisine": "chinese",
+    "role": "main",
+    "techniques": ["steam"],
+    "links": []
+  },
+  {
+    "id": "beef-stir-fry",
+    "name": "Beef Stir Fry",
+    "cuisine": "chinese",
+    "role": "main",
+    "techniques": ["stir-fry"],
+    "links": []
+  },
+  {
+    "id": "rib-roast",
+    "name": "Rib Roast",
+    "cuisine": "american",
+    "role": "main",
+    "techniques": ["roast"],
+    "links": []
+  },
+  {
+    "id": "shaker-chicken-noodle-soup",
+    "name": "Shaker Chicken Noodle Soup",
+    "cuisine": "american",
+    "role": "main",
+    "techniques": ["simmer", "boil"],
+    "links": []
+  },
+  {
+    "id": "pad-kra-pow",
+    "name": "Pad Kra Pow",
+    "cuisine": "thai",
+    "role": "main",
+    "techniques": ["stir-fry"],
+    "links": []
+  },
+  {
+    "id": "pork-chicken-katsu",
+    "name": "Pork or Chicken Katsu",
+    "cuisine": "japanese",
+    "role": "main",
+    "techniques": ["fry"],
+    "links": []
+  },
+  {
+    "id": "sushi-handrolls",
+    "name": "Sushi Handrolls",
+    "cuisine": "japanese",
+    "role": "main",
+    "techniques": ["raw"],
+    "links": []
+  },
+  {
+    "id": "sushi-roll",
+    "name": "Sushi Roll",
+    "cuisine": "japanese",
+    "role": "main",
+    "techniques": ["raw"],
+    "links": []
+  },
+  {
+    "id": "oyakodon",
+    "name": "Oyakodon",
+    "cuisine": "japanese",
+    "role": "main",
+    "techniques": ["simmer", "saute"],
+    "links": []
+  },
+  {
+    "id": "fried-rice",
+    "name": "Fried Rice",
+    "cuisine": "chinese",
+    "role": "main",
+    "techniques": ["stir-fry", "fry"],
+    "links": []
+  },
+  {
+    "id": "congee",
+    "name": "Congee",
+    "cuisine": "chinese",
+    "role": "main",
+    "techniques": ["simmer"],
+    "links": []
+  },
+  {
+    "id": "pasta-aglio-olio",
+    "name": "Pasta Aglio Olio",
+    "cuisine": "italian",
+    "role": "main",
+    "techniques": ["saute", "boil"],
+    "links": []
+  },
+  {
+    "id": "carbonara",
+    "name": "Carbonara",
+    "cuisine": "italian",
+    "role": "main",
+    "techniques": ["saute", "boil"],
+    "links": []
+  },
+  {
+    "id": "cacio-e-pepe",
+    "name": "Cacio e Pepe",
+    "cuisine": "italian",
+    "role": "main",
+    "techniques": ["boil", "saute"],
+    "links": []
+  },
+  {
+    "id": "bolognese-pasta",
+    "name": "Bolognese Pasta",
+    "cuisine": "italian",
+    "role": "main",
+    "techniques": ["simmer", "saute", "boil"],
+    "links": []
+  },
+  {
+    "id": "japanese-curry",
+    "name": "Japanese Curry",
+    "cuisine": "japanese",
+    "role": "main",
+    "techniques": ["simmer", "saute"],
+    "links": []
+  },
+  {
+    "id": "nikujaga",
+    "name": "Nikujaga",
+    "cuisine": "japanese",
+    "role": "main",
+    "techniques": ["simmer", "saute"],
+    "links": []
+  },
+  {
+    "id": "baby-back-ribs",
+    "name": "Baby Back Ribs",
+    "cuisine": "american",
+    "role": "main",
+    "techniques": ["roast", "grill"],
+    "links": []
+  },
+  {
+    "id": "chipotle-lime-rice",
+    "name": "Chipotle Lime Rice",
+    "cuisine": "mexican",
+    "role": "side",
+    "techniques": ["simmer"],
+    "links": []
+  },
+  {
+    "id": "olivier-salad",
+    "name": "Olivier Salad",
+    "cuisine": "other",
+    "role": "side",
+    "techniques": ["boil", "raw"],
+    "links": [],
+    "notes": "Russian-style potato salad"
+  },
+  {
+    "id": "caesar-salad",
+    "name": "Caesar Salad",
+    "cuisine": "american",
+    "role": "side",
+    "techniques": ["raw"],
+    "links": []
+  },
+  {
+    "id": "chili",
+    "name": "Chili",
+    "cuisine": "american",
+    "role": "both",
+    "techniques": ["simmer", "saute"],
+    "links": []
+  },
+  {
+    "id": "buttered-noodles",
+    "name": "Buttered Noodles",
+    "cuisine": "american",
+    "role": "side",
+    "techniques": ["boil", "saute"],
+    "links": []
+  },
+  {
+    "id": "potato-salad",
+    "name": "Potato Salad",
+    "cuisine": "american",
+    "role": "side",
+    "techniques": ["boil", "raw"],
+    "links": []
+  },
+  {
+    "id": "pasta-salad",
+    "name": "Pasta Salad",
+    "cuisine": "american",
+    "role": "side",
+    "techniques": ["boil", "raw"],
+    "links": []
+  }
+]

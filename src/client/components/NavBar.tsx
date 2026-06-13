@@ -19,6 +19,7 @@ export function NavBar() {
           {[
             { href: "/", label: "Feed" },
             { href: "/calendar", label: "Calendar" },
+            { href: "/recipes", label: "Recipes" },
           ].map(({ href, label }) => (
             <Link
               key={href}
